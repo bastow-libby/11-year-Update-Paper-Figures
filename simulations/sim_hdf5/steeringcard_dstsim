@@ -1,0 +1,15 @@
+Executable = l3_i3_sim_hdf.py
+
+arguments = /data/user/ebastow/sim_out/l3_2012_Fe.hdf /data/ana/CosmicRay/IceTop_level3/sim/IC86.2012/SIBYLL2.1/Fe/12362_v1s/Level3_IC86.2012_SIBYLL2.1_*.i3.*
+
+output = ./simlogs/condor.out.$(ClusterId)
+error = ./simlogs/condor.err.$(ClusterId)
+log = ./simlogs/condor.log.$(ClusterId)
+
+request_memory = 2GB
+request_disk = 1MB
+
+#Notification = Error
+getenv  = True
+Queue
+

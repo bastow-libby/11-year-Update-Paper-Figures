@@ -1,0 +1,18 @@
+000 (4336856.000.000) 2026-01-29 12:21:05 Job submitted from host: <10.128.10.103:9618?addrs=10.128.10.103-9618&alias=npx-submitter.icecube.wisc.edu&noUDP&sock=schedd_813503_f8e2>
+...
+001 (4336856.000.000) 2026-01-29 12:22:33 Job executing on host: <10.128.10.206:37897?addrs=10.128.10.206-37897&alias=sm-storage-1.icecube.wisc.edu>
+	SlotName: slot1_57@sm-storage-1.icecube.wisc.edu
+	admin_mutex_1 = 0
+	admin_mutex_2 = 0
+	admin_mutex_3 = 0
+	CondorScratchDir = "/scratch/condor/dir_2856621"
+	Cpus = 1
+	Disk = 2048
+	GPUs = 0
+	machine_token = 0
+	Memory = 2048
+...
+006 (4336856.000.000) 2026-01-29 12:22:46 Image size of job updated: 82008
+	81  -  MemoryUsage of job (MB)
+	82008  -  ResidentSetSize of job (KB)
+...
