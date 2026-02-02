@@ -41,7 +41,7 @@ def get_cosine_binning(upper_bound, bin_count):
     xerr = (arccos_zenbin_ends[1:] - arccos_zenbin_ends[:-1]) / 2
 
     # print(xerr)
-    print arccos_zenbin_ends
+    print (arccos_zenbin_ends)
     return arccos_zenbin_ends
 
 
