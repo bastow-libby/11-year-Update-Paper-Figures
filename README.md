@@ -1,1 +1,3 @@
-This repository contains the code and data for the paper "Observation of Cosmic-Ray Anisotropy in the Southern Hemisphere with 11 yr of IceTop Air Shower Array Data". It is organized by figure in the order listed in the paper. There are inline comments for ease of use. 
+This repository contains the code and data for the paper "Observation of Cosmic-Ray Anisotropy in the Southern Hemisphere with 11 yr of IceTop Air Shower Array Data". It is organized by figure in the order listed in the paper. There are inline comments for ease of use.
+
+Begin in the simulations or skymaps directories and follow the instructions in the directory READMEs to produce the figures 
