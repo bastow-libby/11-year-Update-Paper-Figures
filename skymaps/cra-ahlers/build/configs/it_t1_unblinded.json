@@ -1,0 +1,13 @@
+{
+    "detectors": {
+        "IceTop": {
+            "nside":64,
+            "latitude": -90.0,
+            "longitude": 270.0,
+            "thetamax": 55.0,
+            "prefix":"/data/user/@USERDIR@/@TIER@/ITpass2_sd/combined/CR_ICETOP_LOCAL*_NSIDE64_degbin-",
+            "suffix": ".fits.gz"
+        }
+    }
+}
+

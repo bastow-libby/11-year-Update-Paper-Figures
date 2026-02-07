@@ -1,0 +1,13 @@
+{
+    "detectors": {
+        "IceTop": {
+            "nside":64,
+            "latitude": -90.0,
+            "longitude": 270.0,
+            "thetamax": 55.0,
+            "prefix":"/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/outpute/solar/tier1/ITpass2/combined/CR_ICETOP_LOCAL*_NSIDE64_degbin-",
+            "suffix": ".fits.gz"
+        }
+    }
+}
+
