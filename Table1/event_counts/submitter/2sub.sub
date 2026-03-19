@@ -1,0 +1,8 @@
+universe = vanilla
+executable = /home/fmcnally/it_anisotropy/event_counts/submitter/npx4-execs/counts_tier4_2021.txt.sh
+log = /home/fmcnally/it_anisotropy/event_counts/submitter/npx4-logs/counts_tier4_2021.txt.log
+output = /home/fmcnally/it_anisotropy/event_counts/submitter/npx4-out/counts_tier4_2021.txt.out
+error = /home/fmcnally/it_anisotropy/event_counts/submitter/npx4-error/counts_tier4_2021.txt.error
+notification = never
+request_memory = 4000
+queue

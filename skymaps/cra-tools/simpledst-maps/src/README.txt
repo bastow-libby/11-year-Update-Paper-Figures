@@ -23,15 +23,15 @@ to the user-appropriate directories.
 
 To Run:
 Step 1: Producing Local Skymaps
-* SSH into the condor machine and run CVMFS (version py3-v4.2.1). 
+* SSH into the condor machine and run CVMFS. 
 
 * Go into run_burnsample. For the tier you want to run, go into that directory and run the shell script. Make sure
 that the output directory is empty of any existing folders, as the code does not overwrite any existing files.
 
 Step 2: Combining Local Skymaps 
-* SSH into cobalt and run CVMFS (version py3-v4.2.1).
+* SSH into cobalt and run CVMFS.
 
-* Go into run_bursample and into the directory for the tier you want to process.
+* Go into run_all and into the directory for the tier you want to process.
 
 * For each tier, run the below command (edit the user directory to the output directory for each tier):
  - python ../../scripts/merge-reco.py.in -c ITpass2 -o /data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/@USER_DIR@ --sd --reco --submit_dir ./submit

@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # File paths (Update for your use)
     p.add_argument( '-f', '--inFile', dest='inFiles',
-                default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/outpute/finalcombinedfits',
+                default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/icecube/finalcombinedfits',
                 help = 'The input file path. The default is set in a way to select tier. Please ask someone for data path if not found.')
     p.add_argument('-t', '--tier', dest='tier',
                    default = '1',

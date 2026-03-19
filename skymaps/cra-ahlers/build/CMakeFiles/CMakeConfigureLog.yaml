@@ -1,0 +1,210 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 5.14.0-570.58.1.el9_6.x86_64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++ 
+      Build flags: ;-std=c++17;-DBOOST_LOG_DYN_LINK
+      Id flags:  
+      
+      The output was:
+      1
+      /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crt1.o: No such file or directory
+      /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crti.o: No such file or directory
+      /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find -lm: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++ 
+      Build flags: ;-std=c++17;-DBOOST_LOG_DYN_LINK
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/3.26.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crt1.o: No such file or directory
+      /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crti.o: No such file or directory
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/3.26.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-uhMFyP"
+      binary: "/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-uhMFyP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++17 -DBOOST_LOG_DYN_LINK"
+      CMAKE_MODULE_PATH: "/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/src/cmake/"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-uhMFyP
+        
+        Run Build Command(s):/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/bin/cmake -E env VERBOSE=1 /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/gmake -f Makefile cmTC_e9dfe/fast && /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/gmake  -f CMakeFiles/cmTC_e9dfe.dir/build.make CMakeFiles/cmTC_e9dfe.dir/build
+        gmake[1]: Entering directory '/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-uhMFyP'
+        Building CXX object CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++   -std=c++17 -DBOOST_LOG_DYN_LINK    -v -o CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/specs
+        COLLECT_GCC=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /tmp/dschultz/spack-stage/spack-stage-gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/spack-src/configure --prefix=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --with-zstd-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/include --with-zstd-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/lib --with-gnu-ld --with-ld=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld --with-gnu-as --with-as=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/as --enable-bootstrap --with-mpfr-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/include --with-mpfr-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/lib --with-gmp-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/include --with-gmp-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/lib --with-mpc-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/include --with-mpc-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib64 -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zlib-1.2.13-4w4yvr3ej6tg5yy5wnig4p5b4mx237ds/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/lib' --with-boot-ldflags='-Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib64 -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zlib-1.2.13-4w4yvr3ej6tg5yy5wnig4p5b4mx237ds/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/lib -static-libstdc++ -static-libgcc' --with-build-config=spack
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Spack GCC) 
+        COLLECT_GCC_OPTIONS='-std=c++17' '-D' 'BOOST_LOG_DYN_LINK' '-v' '-o' 'CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9dfe.dir/'
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/cc1plus -quiet -v -D_GNU_SOURCE -D BOOST_LOG_DYN_LINK /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_e9dfe.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=c++17 -version -o /tmp/cckrVWbs.s
+        GNU C++17 (Spack GCC) version 13.1.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../include/c++/13.1.0
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../include/c++/13.1.0/x86_64-pc-linux-gnu
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../include/c++/13.1.0/backward
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/include
+         /usr/local/include
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/include
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 1ede36ff40898125aa374ca707599d7d
+        COLLECT_GCC_OPTIONS='-std=c++17' '-D' 'BOOST_LOG_DYN_LINK' '-v' '-o' 'CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9dfe.dir/'
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/as -v --64 -o CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o /tmp/cckrVWbs.s
+        GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++17' '-D' 'BOOST_LOG_DYN_LINK' '-v' '-o' 'CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_e9dfe
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9dfe.dir/link.txt --verbose=1
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++  -std=c++17 -DBOOST_LOG_DYN_LINK   -v -rdynamic CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e9dfe 
+        Reading specs from /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/specs
+        COLLECT_GCC=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++
+        COLLECT_LTO_WRAPPER=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /tmp/dschultz/spack-stage/spack-stage-gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/spack-src/configure --prefix=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --with-zstd-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/include --with-zstd-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/lib --with-gnu-ld --with-ld=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld --with-gnu-as --with-as=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/as --enable-bootstrap --with-mpfr-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/include --with-mpfr-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/lib --with-gmp-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/include --with-gmp-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/lib --with-mpc-include=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/include --with-mpc-lib=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib64 -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zlib-1.2.13-4w4yvr3ej6tg5yy5wnig4p5b4mx237ds/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/lib' --with-boot-ldflags='-Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib64 -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gmp-6.2.1-pmniqd755y4ytjxq2xducbh4ccocpclu/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpc-1.3.1-hzyleugf7mtil2pr5yit53wzw76kgcqv/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/mpfr-4.2.0-x7ixmhd6t3qdmle6pmscjlhsomvx22yy/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zlib-1.2.13-4w4yvr3ej6tg5yy5wnig4p5b4mx237ds/lib -Wl,-rpath,/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/zstd-1.5.5-ouygejjry5bla7odtq7c2vuivp6lmgh3/lib -static-libstdc++ -static-libgcc' --with-build-config=spack
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.1.0 (Spack GCC) 
+        COMPILER_PATH=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++17' '-D' 'BOOST_LOG_DYN_LINK' '-v' '-rdynamic' '-o' 'cmTC_e9dfe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_e9dfe.'
+         /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/collect2 -plugin /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/liblto_plugin.so -plugin-opt=/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/libexec/gcc/x86_64-pc-linux-gnu/13.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccz260eA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e9dfe crt1.o crti.o /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/crtbegin.o -rpath /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib64 -L/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0 -L/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/../../.. CMakeFiles/cmTC_e9dfe.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/gcc-13.1.0-fa6vr33ioxgsp2rkkog45hckfbaumvef/lib/gcc/x86_64-pc-linux-gnu/13.1.0/crtend.o crtn.o
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crt1.o: No such file or directory
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crti.o: No such file or directory
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find -lm: No such file or directory
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_e9dfe.dir/build.make:99: cmTC_e9dfe] Error 1
+        gmake[1]: Leaving directory '/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-uhMFyP'
+        gmake: *** [Makefile:127: cmTC_e9dfe/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:49 (try_compile)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Check for working CXX compiler: /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++"
+    directories:
+      source: "/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-8lWrVE"
+      binary: "/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-8lWrVE"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -std=c++17 -DBOOST_LOG_DYN_LINK"
+      CMAKE_MODULE_PATH: "/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/src/cmake/"
+    buildResult:
+      variable: "CMAKE_CXX_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: /home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-8lWrVE
+        
+        Run Build Command(s):/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/bin/cmake -E env VERBOSE=1 /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/gmake -f Makefile cmTC_ceb3e/fast && /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/gmake  -f CMakeFiles/cmTC_ceb3e.dir/build.make CMakeFiles/cmTC_ceb3e.dir/build
+        gmake[1]: Entering directory '/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-8lWrVE'
+        Building CXX object CMakeFiles/cmTC_ceb3e.dir/testCXXCompiler.cxx.o
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++   -std=c++17 -DBOOST_LOG_DYN_LINK  -o CMakeFiles/cmTC_ceb3e.dir/testCXXCompiler.cxx.o -c /home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-8lWrVE/testCXXCompiler.cxx
+        Linking CXX executable cmTC_ceb3e
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-13.1.0/cmake-3.26.3-oovesa6skle3w6b2nd7ewzqjxaeuvvah/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceb3e.dir/link.txt --verbose=1
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/bin/c++  -std=c++17 -DBOOST_LOG_DYN_LINK  -rdynamic CMakeFiles/cmTC_ceb3e.dir/testCXXCompiler.cxx.o -o cmTC_ceb3e 
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crt1.o: No such file or directory
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find crti.o: No such file or directory
+        /cvmfs/icecube.opensciencegrid.org/py3-v4.3.0/RHEL_9_x86_64/spack/opt/spack/linux-almalinux9-x86_64_v2/gcc-11.3.1/binutils-2.40-jb5bjneivyjsetglm5qifkvmchdhn3r5/bin/ld: cannot find -lm: No such file or directory
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_ceb3e.dir/build.make:99: cmTC_ceb3e] Error 1
+        gmake[1]: Leaving directory '/home/ebastow/11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/CMakeFiles/CMakeScratch/TryCompile-8lWrVE'
+        gmake: *** [Makefile:127: cmTC_ceb3e/fast] Error 2
+        
+      exitCode: 2
+...
