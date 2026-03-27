@@ -1,11 +1,11 @@
 ## Folder for creating Figure 7 (Angular Power Spectrum) in the 11 years with IceTop paper
 ### Scripts in this Folder
 - plotMaker.py : wrapper script that can generate both the uncertainties and the angular power spectrum with simplified commands.
-  - How to run: python plotMaker.py -m -t # -l [energy label] -o [output file path]
+  - How to run: python plotMaker.py -t # -l [energy label] -o [output file path]
   - To make uncertainties:
-      - Iso Bands: python plotMaker.py -m -t # -i
-      - Sys Bars: python plotMaker.py -m -t # -sy
-      - Stat Bars: python plotMaker.py -m -t # -st
+      - Iso Bands: python plotMaker.py -t # -i
+      - Sys Bars: python plotMaker.py -t # -sy
+      - Stat Bars: python plotMaker.py -t # -st
   - Making the uncertainties will take a few hours for each since the -n is default to 1e6 for Iso Bands and 1e5 for stat and sys bars.
   - -il will put the significance of the iso bands in the legend.
   - -icp will put IceCube Preliminary on the plot.
