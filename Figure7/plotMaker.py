@@ -17,13 +17,13 @@ if __name__ == "__main__":
 
     # File paths (Update for your use)
     p.add_argument( '-f', '--inFile', dest='inFiles',
-                default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/icecube/finalcombinedfits',
+                default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/outpute/finalcombinedfits',
                 help = 'The input file path. The default is set in a way to select tier. Please ask someone for data path if not found.')
     p.add_argument('-t', '--tier', dest='tier',
                    default = '1',
                    help = 'The energy bin tier. please type -t # to direct to proper directory. default 1.')
     p.add_argument('-o', '--output', dest='out',
-                   default = '/data/user/ahinners/anisotropy/powerspec',
+                   default = '.',
                    help='output directory, please change default for your needs')
     p.add_argument('-m', '--make', dest='make',
                    default = False,
@@ -113,7 +113,7 @@ if __name__ == "__main__":
         if args.icp:
             a += f'-icp '
     
-        a += f'-s {args.smooth} -o {args.out}/T{args.tier}/APS_T{args.tier}_S{args.smooth} -l {args.label}'
+        a += f'-s {args.smooth} -o {args.out}/T{args.tier}/APS_T{args.tier}_S{args.smooth}.pdf -l {args.label}'
         subprocess.Popen(a.split(' '))
 
         print(f'Angular power spectrum saved to {args.out}/T{args.tier}')

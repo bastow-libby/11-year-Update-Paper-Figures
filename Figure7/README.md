@@ -1,4 +1,7 @@
 ## Folder for creating Figure 7 (Angular Power Spectrum) in the 11 years with IceTop paper
+### How to Run
+- enter Icetray and a python virtual environment and then run plot_maker.sh to replicate paper figures
+- If you want more control over the output, you can run the command in terminal 
 ### Scripts in this Folder
 - plotMaker.py : wrapper script that can generate both the uncertainties and the angular power spectrum with simplified commands.
   - How to run: python [code] -f [input file path] -t t# -o [output file path] (recommended first run: -m to make the uncertainties.)
