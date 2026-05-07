@@ -4,8 +4,8 @@ import os, re, datetime
 
 def extractTime(line, end=False):
 
-    dateFormat = re.compile('\d{4}-\d{2}-\d{2}')
-    timeFormat = re.compile('\d{2}:\d{2}:\d{2}')
+    dateFormat = re.compile(r'\d{4}-\d{2}-\d{2}')
+    timeFormat = re.compile(r'\d{2}:\d{2}:\d{2}')
     d0 = dateFormat.findall(line)[0]
     t0 = timeFormat.findall(line)[0]
 

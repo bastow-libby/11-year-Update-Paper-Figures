@@ -16,6 +16,10 @@ if __name__ == "__main__":
 
         for year in years:
 
+            # No maps for 2015+ for Tiers 1 and 2
+            if (tier < 3) and (year > 2014):
+                continue
+
             # Check to see if output file already exists
             out_file = out_base / f'tier{tier}_{year}.txt'
             if out_file.is_file():
