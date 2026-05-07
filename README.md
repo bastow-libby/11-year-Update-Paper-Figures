@@ -4,7 +4,7 @@ Begin in the simulations or skymaps directories and follow the instructions in t
 
 To produce the figures or tables from already existing data, enter the figure directories and run the code there without changing the input directories. 
 
-This directory uses python 4.3.0 and the following packages: 
+This directory uses python-3 4.3.0 and the following packages: 
 healpy            1.16.2
 htcondor           10.3.0
 importlib-metadata      6.6.0
