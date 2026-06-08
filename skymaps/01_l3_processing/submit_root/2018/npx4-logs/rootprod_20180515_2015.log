@@ -1,0 +1,55 @@
+000 (19534632.000.000) 2026-06-02 15:52:47 Job submitted from host: <10.128.10.103:9618?addrs=10.128.10.103-9618&alias=npx-submitter.icecube.wisc.edu&noUDP&sock=schedd_2449_6386>
+    DAG Node: Drootprod_20180515_2015
+...
+001 (19534632.000.000) 2026-06-02 16:38:17 Job executing on host: <10.128.10.197:38115?addrs=10.128.10.197-38115&alias=n-18.icecube.wisc.edu>
+	SlotName: slot1_7@n-18.icecube.wisc.edu
+	admin_mutex_1 = 0
+	admin_mutex_2 = 0
+	admin_mutex_3 = 0
+	CondorScratchDir = "/scratch/condor/dir_559419"
+	Cpus = 1
+	Disk = 3815
+	GPUs = 0
+	machine_token = 0
+	Memory = 6016
+...
+006 (19534632.000.000) 2026-06-02 16:38:30 Image size of job updated: 121172
+	119  -  MemoryUsage of job (MB)
+	121172  -  ResidentSetSize of job (KB)
+...
+006 (19534632.000.000) 2026-06-02 16:43:30 Image size of job updated: 154232
+	151  -  MemoryUsage of job (MB)
+	154232  -  ResidentSetSize of job (KB)
+...
+006 (19534632.000.000) 2026-06-02 16:48:31 Image size of job updated: 296580
+	290  -  MemoryUsage of job (MB)
+	296580  -  ResidentSetSize of job (KB)
+...
+006 (19534632.000.000) 2026-06-02 16:52:15 Image size of job updated: 453568
+	290  -  MemoryUsage of job (MB)
+	296580  -  ResidentSetSize of job (KB)
+...
+005 (19534632.000.000) 2026-06-02 16:52:15 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:13:16, Sys 0 00:00:10  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:13:16, Sys 0 00:00:10  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :     0.94        1         1 
+	   Disk (KB)             :    10        2048      3815 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :   290        6000      6016 
+	   TimeExecute (s)       :   838                       
+	   TimeSlotBusy (s)      :   838                       
+
+	Job terminated of its own accord at 2026-06-02T21:52:15Z with exit-code 0.
+...

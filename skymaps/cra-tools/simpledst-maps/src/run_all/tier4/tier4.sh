@@ -5,8 +5,7 @@ function run_makemaps {
     options=$2
 
     # Run the script to produce the dag files.
-    #command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/user/amcclure/fitsfilesalltiers/tier4_unblinded2 $options"
-    command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/outpute/sidereal/tier4 $options"
+     command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/@USER_DIR@/tier4 $options"
     $command
 
     # Submit the dag file for each year to condor. This will produce 360 fits files for each day in the tier.

@@ -1,0 +1,10 @@
+universe = vanilla
+executable = ./submit_root/2013/npx4-execs/rootprod_20130514_81609.sh
+log = ./submit_root/2013/npx4-logs/rootprod_20130514_81609.log
+output = ./submit_root/2013/npx4-out/rootprod_20130514_81609.out
+error = ./submit_root/2013/npx4-error/rootprod_20130514_81609.error
+notification = never
+priority =1
+request_memory = 6000
+request_disk = 2 MB
+queue

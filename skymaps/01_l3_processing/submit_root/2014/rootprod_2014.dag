@@ -1,0 +1,1086 @@
+JOB Drootprod_20140101_96545 ./submit_root/2014/npx4-submit/rootprod_20140101_96545.condor
+Retry Drootprod_20140101_96545 1
+SCRIPT HOLD Drootprod_20140101_96545 ./on_hold.sh Drootprod_20140101_96545
+JOB Drootprod_20140102_12179 ./submit_root/2014/npx4-submit/rootprod_20140102_12179.condor
+Retry Drootprod_20140102_12179 1
+SCRIPT HOLD Drootprod_20140102_12179 ./on_hold.sh Drootprod_20140102_12179
+JOB Drootprod_20140103_90429 ./submit_root/2014/npx4-submit/rootprod_20140103_90429.condor
+Retry Drootprod_20140103_90429 1
+SCRIPT HOLD Drootprod_20140103_90429 ./on_hold.sh Drootprod_20140103_90429
+JOB Drootprod_20140104_44099 ./submit_root/2014/npx4-submit/rootprod_20140104_44099.condor
+Retry Drootprod_20140104_44099 1
+SCRIPT HOLD Drootprod_20140104_44099 ./on_hold.sh Drootprod_20140104_44099
+JOB Drootprod_20140105_4035 ./submit_root/2014/npx4-submit/rootprod_20140105_4035.condor
+Retry Drootprod_20140105_4035 1
+SCRIPT HOLD Drootprod_20140105_4035 ./on_hold.sh Drootprod_20140105_4035
+JOB Drootprod_20140106_2145 ./submit_root/2014/npx4-submit/rootprod_20140106_2145.condor
+Retry Drootprod_20140106_2145 1
+SCRIPT HOLD Drootprod_20140106_2145 ./on_hold.sh Drootprod_20140106_2145
+JOB Drootprod_20140107_67750 ./submit_root/2014/npx4-submit/rootprod_20140107_67750.condor
+Retry Drootprod_20140107_67750 1
+SCRIPT HOLD Drootprod_20140107_67750 ./on_hold.sh Drootprod_20140107_67750
+JOB Drootprod_20140108_90452 ./submit_root/2014/npx4-submit/rootprod_20140108_90452.condor
+Retry Drootprod_20140108_90452 1
+SCRIPT HOLD Drootprod_20140108_90452 ./on_hold.sh Drootprod_20140108_90452
+JOB Drootprod_20140109_36189 ./submit_root/2014/npx4-submit/rootprod_20140109_36189.condor
+Retry Drootprod_20140109_36189 1
+SCRIPT HOLD Drootprod_20140109_36189 ./on_hold.sh Drootprod_20140109_36189
+JOB Drootprod_20140110_43527 ./submit_root/2014/npx4-submit/rootprod_20140110_43527.condor
+Retry Drootprod_20140110_43527 1
+SCRIPT HOLD Drootprod_20140110_43527 ./on_hold.sh Drootprod_20140110_43527
+JOB Drootprod_20140111_53979 ./submit_root/2014/npx4-submit/rootprod_20140111_53979.condor
+Retry Drootprod_20140111_53979 1
+SCRIPT HOLD Drootprod_20140111_53979 ./on_hold.sh Drootprod_20140111_53979
+JOB Drootprod_20140112_4888 ./submit_root/2014/npx4-submit/rootprod_20140112_4888.condor
+Retry Drootprod_20140112_4888 1
+SCRIPT HOLD Drootprod_20140112_4888 ./on_hold.sh Drootprod_20140112_4888
+JOB Drootprod_20140113_19556 ./submit_root/2014/npx4-submit/rootprod_20140113_19556.condor
+Retry Drootprod_20140113_19556 1
+SCRIPT HOLD Drootprod_20140113_19556 ./on_hold.sh Drootprod_20140113_19556
+JOB Drootprod_20140114_62669 ./submit_root/2014/npx4-submit/rootprod_20140114_62669.condor
+Retry Drootprod_20140114_62669 1
+SCRIPT HOLD Drootprod_20140114_62669 ./on_hold.sh Drootprod_20140114_62669
+JOB Drootprod_20140115_83784 ./submit_root/2014/npx4-submit/rootprod_20140115_83784.condor
+Retry Drootprod_20140115_83784 1
+SCRIPT HOLD Drootprod_20140115_83784 ./on_hold.sh Drootprod_20140115_83784
+JOB Drootprod_20140116_14263 ./submit_root/2014/npx4-submit/rootprod_20140116_14263.condor
+Retry Drootprod_20140116_14263 1
+SCRIPT HOLD Drootprod_20140116_14263 ./on_hold.sh Drootprod_20140116_14263
+JOB Drootprod_20140117_36365 ./submit_root/2014/npx4-submit/rootprod_20140117_36365.condor
+Retry Drootprod_20140117_36365 1
+SCRIPT HOLD Drootprod_20140117_36365 ./on_hold.sh Drootprod_20140117_36365
+JOB Drootprod_20140118_12217 ./submit_root/2014/npx4-submit/rootprod_20140118_12217.condor
+Retry Drootprod_20140118_12217 1
+SCRIPT HOLD Drootprod_20140118_12217 ./on_hold.sh Drootprod_20140118_12217
+JOB Drootprod_20140119_21016 ./submit_root/2014/npx4-submit/rootprod_20140119_21016.condor
+Retry Drootprod_20140119_21016 1
+SCRIPT HOLD Drootprod_20140119_21016 ./on_hold.sh Drootprod_20140119_21016
+JOB Drootprod_20140120_72131 ./submit_root/2014/npx4-submit/rootprod_20140120_72131.condor
+Retry Drootprod_20140120_72131 1
+SCRIPT HOLD Drootprod_20140120_72131 ./on_hold.sh Drootprod_20140120_72131
+JOB Drootprod_20140121_10416 ./submit_root/2014/npx4-submit/rootprod_20140121_10416.condor
+Retry Drootprod_20140121_10416 1
+SCRIPT HOLD Drootprod_20140121_10416 ./on_hold.sh Drootprod_20140121_10416
+JOB Drootprod_20140122_51711 ./submit_root/2014/npx4-submit/rootprod_20140122_51711.condor
+Retry Drootprod_20140122_51711 1
+SCRIPT HOLD Drootprod_20140122_51711 ./on_hold.sh Drootprod_20140122_51711
+JOB Drootprod_20140123_15917 ./submit_root/2014/npx4-submit/rootprod_20140123_15917.condor
+Retry Drootprod_20140123_15917 1
+SCRIPT HOLD Drootprod_20140123_15917 ./on_hold.sh Drootprod_20140123_15917
+JOB Drootprod_20140124_77975 ./submit_root/2014/npx4-submit/rootprod_20140124_77975.condor
+Retry Drootprod_20140124_77975 1
+SCRIPT HOLD Drootprod_20140124_77975 ./on_hold.sh Drootprod_20140124_77975
+JOB Drootprod_20140125_16903 ./submit_root/2014/npx4-submit/rootprod_20140125_16903.condor
+Retry Drootprod_20140125_16903 1
+SCRIPT HOLD Drootprod_20140125_16903 ./on_hold.sh Drootprod_20140125_16903
+JOB Drootprod_20140126_66530 ./submit_root/2014/npx4-submit/rootprod_20140126_66530.condor
+Retry Drootprod_20140126_66530 1
+SCRIPT HOLD Drootprod_20140126_66530 ./on_hold.sh Drootprod_20140126_66530
+JOB Drootprod_20140127_85231 ./submit_root/2014/npx4-submit/rootprod_20140127_85231.condor
+Retry Drootprod_20140127_85231 1
+SCRIPT HOLD Drootprod_20140127_85231 ./on_hold.sh Drootprod_20140127_85231
+JOB Drootprod_20140128_54867 ./submit_root/2014/npx4-submit/rootprod_20140128_54867.condor
+Retry Drootprod_20140128_54867 1
+SCRIPT HOLD Drootprod_20140128_54867 ./on_hold.sh Drootprod_20140128_54867
+JOB Drootprod_20140129_56892 ./submit_root/2014/npx4-submit/rootprod_20140129_56892.condor
+Retry Drootprod_20140129_56892 1
+SCRIPT HOLD Drootprod_20140129_56892 ./on_hold.sh Drootprod_20140129_56892
+JOB Drootprod_20140130_71498 ./submit_root/2014/npx4-submit/rootprod_20140130_71498.condor
+Retry Drootprod_20140130_71498 1
+SCRIPT HOLD Drootprod_20140130_71498 ./on_hold.sh Drootprod_20140130_71498
+JOB Drootprod_20140131_99299 ./submit_root/2014/npx4-submit/rootprod_20140131_99299.condor
+Retry Drootprod_20140131_99299 1
+SCRIPT HOLD Drootprod_20140131_99299 ./on_hold.sh Drootprod_20140131_99299
+JOB Drootprod_20140201_77783 ./submit_root/2014/npx4-submit/rootprod_20140201_77783.condor
+Retry Drootprod_20140201_77783 1
+SCRIPT HOLD Drootprod_20140201_77783 ./on_hold.sh Drootprod_20140201_77783
+JOB Drootprod_20140202_32849 ./submit_root/2014/npx4-submit/rootprod_20140202_32849.condor
+Retry Drootprod_20140202_32849 1
+SCRIPT HOLD Drootprod_20140202_32849 ./on_hold.sh Drootprod_20140202_32849
+JOB Drootprod_20140203_14296 ./submit_root/2014/npx4-submit/rootprod_20140203_14296.condor
+Retry Drootprod_20140203_14296 1
+SCRIPT HOLD Drootprod_20140203_14296 ./on_hold.sh Drootprod_20140203_14296
+JOB Drootprod_20140204_15815 ./submit_root/2014/npx4-submit/rootprod_20140204_15815.condor
+Retry Drootprod_20140204_15815 1
+SCRIPT HOLD Drootprod_20140204_15815 ./on_hold.sh Drootprod_20140204_15815
+JOB Drootprod_20140205_73599 ./submit_root/2014/npx4-submit/rootprod_20140205_73599.condor
+Retry Drootprod_20140205_73599 1
+SCRIPT HOLD Drootprod_20140205_73599 ./on_hold.sh Drootprod_20140205_73599
+JOB Drootprod_20140206_67551 ./submit_root/2014/npx4-submit/rootprod_20140206_67551.condor
+Retry Drootprod_20140206_67551 1
+SCRIPT HOLD Drootprod_20140206_67551 ./on_hold.sh Drootprod_20140206_67551
+JOB Drootprod_20140207_569 ./submit_root/2014/npx4-submit/rootprod_20140207_569.condor
+Retry Drootprod_20140207_569 1
+SCRIPT HOLD Drootprod_20140207_569 ./on_hold.sh Drootprod_20140207_569
+JOB Drootprod_20140208_47072 ./submit_root/2014/npx4-submit/rootprod_20140208_47072.condor
+Retry Drootprod_20140208_47072 1
+SCRIPT HOLD Drootprod_20140208_47072 ./on_hold.sh Drootprod_20140208_47072
+JOB Drootprod_20140209_56238 ./submit_root/2014/npx4-submit/rootprod_20140209_56238.condor
+Retry Drootprod_20140209_56238 1
+SCRIPT HOLD Drootprod_20140209_56238 ./on_hold.sh Drootprod_20140209_56238
+JOB Drootprod_20140210_84533 ./submit_root/2014/npx4-submit/rootprod_20140210_84533.condor
+Retry Drootprod_20140210_84533 1
+SCRIPT HOLD Drootprod_20140210_84533 ./on_hold.sh Drootprod_20140210_84533
+JOB Drootprod_20140211_16269 ./submit_root/2014/npx4-submit/rootprod_20140211_16269.condor
+Retry Drootprod_20140211_16269 1
+SCRIPT HOLD Drootprod_20140211_16269 ./on_hold.sh Drootprod_20140211_16269
+JOB Drootprod_20140212_7280 ./submit_root/2014/npx4-submit/rootprod_20140212_7280.condor
+Retry Drootprod_20140212_7280 1
+SCRIPT HOLD Drootprod_20140212_7280 ./on_hold.sh Drootprod_20140212_7280
+JOB Drootprod_20140213_58074 ./submit_root/2014/npx4-submit/rootprod_20140213_58074.condor
+Retry Drootprod_20140213_58074 1
+SCRIPT HOLD Drootprod_20140213_58074 ./on_hold.sh Drootprod_20140213_58074
+JOB Drootprod_20140214_73433 ./submit_root/2014/npx4-submit/rootprod_20140214_73433.condor
+Retry Drootprod_20140214_73433 1
+SCRIPT HOLD Drootprod_20140214_73433 ./on_hold.sh Drootprod_20140214_73433
+JOB Drootprod_20140215_37575 ./submit_root/2014/npx4-submit/rootprod_20140215_37575.condor
+Retry Drootprod_20140215_37575 1
+SCRIPT HOLD Drootprod_20140215_37575 ./on_hold.sh Drootprod_20140215_37575
+JOB Drootprod_20140216_49127 ./submit_root/2014/npx4-submit/rootprod_20140216_49127.condor
+Retry Drootprod_20140216_49127 1
+SCRIPT HOLD Drootprod_20140216_49127 ./on_hold.sh Drootprod_20140216_49127
+JOB Drootprod_20140217_68223 ./submit_root/2014/npx4-submit/rootprod_20140217_68223.condor
+Retry Drootprod_20140217_68223 1
+SCRIPT HOLD Drootprod_20140217_68223 ./on_hold.sh Drootprod_20140217_68223
+JOB Drootprod_20140218_44498 ./submit_root/2014/npx4-submit/rootprod_20140218_44498.condor
+Retry Drootprod_20140218_44498 1
+SCRIPT HOLD Drootprod_20140218_44498 ./on_hold.sh Drootprod_20140218_44498
+JOB Drootprod_20140219_90600 ./submit_root/2014/npx4-submit/rootprod_20140219_90600.condor
+Retry Drootprod_20140219_90600 1
+SCRIPT HOLD Drootprod_20140219_90600 ./on_hold.sh Drootprod_20140219_90600
+JOB Drootprod_20140220_27536 ./submit_root/2014/npx4-submit/rootprod_20140220_27536.condor
+Retry Drootprod_20140220_27536 1
+SCRIPT HOLD Drootprod_20140220_27536 ./on_hold.sh Drootprod_20140220_27536
+JOB Drootprod_20140221_61191 ./submit_root/2014/npx4-submit/rootprod_20140221_61191.condor
+Retry Drootprod_20140221_61191 1
+SCRIPT HOLD Drootprod_20140221_61191 ./on_hold.sh Drootprod_20140221_61191
+JOB Drootprod_20140222_38026 ./submit_root/2014/npx4-submit/rootprod_20140222_38026.condor
+Retry Drootprod_20140222_38026 1
+SCRIPT HOLD Drootprod_20140222_38026 ./on_hold.sh Drootprod_20140222_38026
+JOB Drootprod_20140223_96380 ./submit_root/2014/npx4-submit/rootprod_20140223_96380.condor
+Retry Drootprod_20140223_96380 1
+SCRIPT HOLD Drootprod_20140223_96380 ./on_hold.sh Drootprod_20140223_96380
+JOB Drootprod_20140224_93164 ./submit_root/2014/npx4-submit/rootprod_20140224_93164.condor
+Retry Drootprod_20140224_93164 1
+SCRIPT HOLD Drootprod_20140224_93164 ./on_hold.sh Drootprod_20140224_93164
+JOB Drootprod_20140226_58443 ./submit_root/2014/npx4-submit/rootprod_20140226_58443.condor
+Retry Drootprod_20140226_58443 1
+SCRIPT HOLD Drootprod_20140226_58443 ./on_hold.sh Drootprod_20140226_58443
+JOB Drootprod_20140228_33834 ./submit_root/2014/npx4-submit/rootprod_20140228_33834.condor
+Retry Drootprod_20140228_33834 1
+SCRIPT HOLD Drootprod_20140228_33834 ./on_hold.sh Drootprod_20140228_33834
+JOB Drootprod_20140301_52620 ./submit_root/2014/npx4-submit/rootprod_20140301_52620.condor
+Retry Drootprod_20140301_52620 1
+SCRIPT HOLD Drootprod_20140301_52620 ./on_hold.sh Drootprod_20140301_52620
+JOB Drootprod_20140302_83939 ./submit_root/2014/npx4-submit/rootprod_20140302_83939.condor
+Retry Drootprod_20140302_83939 1
+SCRIPT HOLD Drootprod_20140302_83939 ./on_hold.sh Drootprod_20140302_83939
+JOB Drootprod_20140303_18667 ./submit_root/2014/npx4-submit/rootprod_20140303_18667.condor
+Retry Drootprod_20140303_18667 1
+SCRIPT HOLD Drootprod_20140303_18667 ./on_hold.sh Drootprod_20140303_18667
+JOB Drootprod_20140304_66627 ./submit_root/2014/npx4-submit/rootprod_20140304_66627.condor
+Retry Drootprod_20140304_66627 1
+SCRIPT HOLD Drootprod_20140304_66627 ./on_hold.sh Drootprod_20140304_66627
+JOB Drootprod_20140305_77478 ./submit_root/2014/npx4-submit/rootprod_20140305_77478.condor
+Retry Drootprod_20140305_77478 1
+SCRIPT HOLD Drootprod_20140305_77478 ./on_hold.sh Drootprod_20140305_77478
+JOB Drootprod_20140306_57561 ./submit_root/2014/npx4-submit/rootprod_20140306_57561.condor
+Retry Drootprod_20140306_57561 1
+SCRIPT HOLD Drootprod_20140306_57561 ./on_hold.sh Drootprod_20140306_57561
+JOB Drootprod_20140307_4324 ./submit_root/2014/npx4-submit/rootprod_20140307_4324.condor
+Retry Drootprod_20140307_4324 1
+SCRIPT HOLD Drootprod_20140307_4324 ./on_hold.sh Drootprod_20140307_4324
+JOB Drootprod_20140308_59225 ./submit_root/2014/npx4-submit/rootprod_20140308_59225.condor
+Retry Drootprod_20140308_59225 1
+SCRIPT HOLD Drootprod_20140308_59225 ./on_hold.sh Drootprod_20140308_59225
+JOB Drootprod_20140309_8373 ./submit_root/2014/npx4-submit/rootprod_20140309_8373.condor
+Retry Drootprod_20140309_8373 1
+SCRIPT HOLD Drootprod_20140309_8373 ./on_hold.sh Drootprod_20140309_8373
+JOB Drootprod_20140310_67070 ./submit_root/2014/npx4-submit/rootprod_20140310_67070.condor
+Retry Drootprod_20140310_67070 1
+SCRIPT HOLD Drootprod_20140310_67070 ./on_hold.sh Drootprod_20140310_67070
+JOB Drootprod_20140311_75007 ./submit_root/2014/npx4-submit/rootprod_20140311_75007.condor
+Retry Drootprod_20140311_75007 1
+SCRIPT HOLD Drootprod_20140311_75007 ./on_hold.sh Drootprod_20140311_75007
+JOB Drootprod_20140312_52446 ./submit_root/2014/npx4-submit/rootprod_20140312_52446.condor
+Retry Drootprod_20140312_52446 1
+SCRIPT HOLD Drootprod_20140312_52446 ./on_hold.sh Drootprod_20140312_52446
+JOB Drootprod_20140313_97603 ./submit_root/2014/npx4-submit/rootprod_20140313_97603.condor
+Retry Drootprod_20140313_97603 1
+SCRIPT HOLD Drootprod_20140313_97603 ./on_hold.sh Drootprod_20140313_97603
+JOB Drootprod_20140314_70528 ./submit_root/2014/npx4-submit/rootprod_20140314_70528.condor
+Retry Drootprod_20140314_70528 1
+SCRIPT HOLD Drootprod_20140314_70528 ./on_hold.sh Drootprod_20140314_70528
+JOB Drootprod_20140315_27416 ./submit_root/2014/npx4-submit/rootprod_20140315_27416.condor
+Retry Drootprod_20140315_27416 1
+SCRIPT HOLD Drootprod_20140315_27416 ./on_hold.sh Drootprod_20140315_27416
+JOB Drootprod_20140316_43586 ./submit_root/2014/npx4-submit/rootprod_20140316_43586.condor
+Retry Drootprod_20140316_43586 1
+SCRIPT HOLD Drootprod_20140316_43586 ./on_hold.sh Drootprod_20140316_43586
+JOB Drootprod_20140317_29124 ./submit_root/2014/npx4-submit/rootprod_20140317_29124.condor
+Retry Drootprod_20140317_29124 1
+SCRIPT HOLD Drootprod_20140317_29124 ./on_hold.sh Drootprod_20140317_29124
+JOB Drootprod_20140318_29729 ./submit_root/2014/npx4-submit/rootprod_20140318_29729.condor
+Retry Drootprod_20140318_29729 1
+SCRIPT HOLD Drootprod_20140318_29729 ./on_hold.sh Drootprod_20140318_29729
+JOB Drootprod_20140319_39055 ./submit_root/2014/npx4-submit/rootprod_20140319_39055.condor
+Retry Drootprod_20140319_39055 1
+SCRIPT HOLD Drootprod_20140319_39055 ./on_hold.sh Drootprod_20140319_39055
+JOB Drootprod_20140320_88244 ./submit_root/2014/npx4-submit/rootprod_20140320_88244.condor
+Retry Drootprod_20140320_88244 1
+SCRIPT HOLD Drootprod_20140320_88244 ./on_hold.sh Drootprod_20140320_88244
+JOB Drootprod_20140321_31276 ./submit_root/2014/npx4-submit/rootprod_20140321_31276.condor
+Retry Drootprod_20140321_31276 1
+SCRIPT HOLD Drootprod_20140321_31276 ./on_hold.sh Drootprod_20140321_31276
+JOB Drootprod_20140322_96815 ./submit_root/2014/npx4-submit/rootprod_20140322_96815.condor
+Retry Drootprod_20140322_96815 1
+SCRIPT HOLD Drootprod_20140322_96815 ./on_hold.sh Drootprod_20140322_96815
+JOB Drootprod_20140323_56257 ./submit_root/2014/npx4-submit/rootprod_20140323_56257.condor
+Retry Drootprod_20140323_56257 1
+SCRIPT HOLD Drootprod_20140323_56257 ./on_hold.sh Drootprod_20140323_56257
+JOB Drootprod_20140324_95048 ./submit_root/2014/npx4-submit/rootprod_20140324_95048.condor
+Retry Drootprod_20140324_95048 1
+SCRIPT HOLD Drootprod_20140324_95048 ./on_hold.sh Drootprod_20140324_95048
+JOB Drootprod_20140325_55922 ./submit_root/2014/npx4-submit/rootprod_20140325_55922.condor
+Retry Drootprod_20140325_55922 1
+SCRIPT HOLD Drootprod_20140325_55922 ./on_hold.sh Drootprod_20140325_55922
+JOB Drootprod_20140326_82645 ./submit_root/2014/npx4-submit/rootprod_20140326_82645.condor
+Retry Drootprod_20140326_82645 1
+SCRIPT HOLD Drootprod_20140326_82645 ./on_hold.sh Drootprod_20140326_82645
+JOB Drootprod_20140327_52103 ./submit_root/2014/npx4-submit/rootprod_20140327_52103.condor
+Retry Drootprod_20140327_52103 1
+SCRIPT HOLD Drootprod_20140327_52103 ./on_hold.sh Drootprod_20140327_52103
+JOB Drootprod_20140328_8991 ./submit_root/2014/npx4-submit/rootprod_20140328_8991.condor
+Retry Drootprod_20140328_8991 1
+SCRIPT HOLD Drootprod_20140328_8991 ./on_hold.sh Drootprod_20140328_8991
+JOB Drootprod_20140329_19862 ./submit_root/2014/npx4-submit/rootprod_20140329_19862.condor
+Retry Drootprod_20140329_19862 1
+SCRIPT HOLD Drootprod_20140329_19862 ./on_hold.sh Drootprod_20140329_19862
+JOB Drootprod_20140330_48724 ./submit_root/2014/npx4-submit/rootprod_20140330_48724.condor
+Retry Drootprod_20140330_48724 1
+SCRIPT HOLD Drootprod_20140330_48724 ./on_hold.sh Drootprod_20140330_48724
+JOB Drootprod_20140331_1303 ./submit_root/2014/npx4-submit/rootprod_20140331_1303.condor
+Retry Drootprod_20140331_1303 1
+SCRIPT HOLD Drootprod_20140331_1303 ./on_hold.sh Drootprod_20140331_1303
+JOB Drootprod_20140401_88063 ./submit_root/2014/npx4-submit/rootprod_20140401_88063.condor
+Retry Drootprod_20140401_88063 1
+SCRIPT HOLD Drootprod_20140401_88063 ./on_hold.sh Drootprod_20140401_88063
+JOB Drootprod_20140402_4391 ./submit_root/2014/npx4-submit/rootprod_20140402_4391.condor
+Retry Drootprod_20140402_4391 1
+SCRIPT HOLD Drootprod_20140402_4391 ./on_hold.sh Drootprod_20140402_4391
+JOB Drootprod_20140403_3496 ./submit_root/2014/npx4-submit/rootprod_20140403_3496.condor
+Retry Drootprod_20140403_3496 1
+SCRIPT HOLD Drootprod_20140403_3496 ./on_hold.sh Drootprod_20140403_3496
+JOB Drootprod_20140404_14086 ./submit_root/2014/npx4-submit/rootprod_20140404_14086.condor
+Retry Drootprod_20140404_14086 1
+SCRIPT HOLD Drootprod_20140404_14086 ./on_hold.sh Drootprod_20140404_14086
+JOB Drootprod_20140405_44223 ./submit_root/2014/npx4-submit/rootprod_20140405_44223.condor
+Retry Drootprod_20140405_44223 1
+SCRIPT HOLD Drootprod_20140405_44223 ./on_hold.sh Drootprod_20140405_44223
+JOB Drootprod_20140406_89528 ./submit_root/2014/npx4-submit/rootprod_20140406_89528.condor
+Retry Drootprod_20140406_89528 1
+SCRIPT HOLD Drootprod_20140406_89528 ./on_hold.sh Drootprod_20140406_89528
+JOB Drootprod_20140407_98563 ./submit_root/2014/npx4-submit/rootprod_20140407_98563.condor
+Retry Drootprod_20140407_98563 1
+SCRIPT HOLD Drootprod_20140407_98563 ./on_hold.sh Drootprod_20140407_98563
+JOB Drootprod_20140408_43087 ./submit_root/2014/npx4-submit/rootprod_20140408_43087.condor
+Retry Drootprod_20140408_43087 1
+SCRIPT HOLD Drootprod_20140408_43087 ./on_hold.sh Drootprod_20140408_43087
+JOB Drootprod_20140409_61577 ./submit_root/2014/npx4-submit/rootprod_20140409_61577.condor
+Retry Drootprod_20140409_61577 1
+SCRIPT HOLD Drootprod_20140409_61577 ./on_hold.sh Drootprod_20140409_61577
+JOB Drootprod_20140410_58818 ./submit_root/2014/npx4-submit/rootprod_20140410_58818.condor
+Retry Drootprod_20140410_58818 1
+SCRIPT HOLD Drootprod_20140410_58818 ./on_hold.sh Drootprod_20140410_58818
+JOB Drootprod_20140411_51777 ./submit_root/2014/npx4-submit/rootprod_20140411_51777.condor
+Retry Drootprod_20140411_51777 1
+SCRIPT HOLD Drootprod_20140411_51777 ./on_hold.sh Drootprod_20140411_51777
+JOB Drootprod_20140412_12693 ./submit_root/2014/npx4-submit/rootprod_20140412_12693.condor
+Retry Drootprod_20140412_12693 1
+SCRIPT HOLD Drootprod_20140412_12693 ./on_hold.sh Drootprod_20140412_12693
+JOB Drootprod_20140413_4638 ./submit_root/2014/npx4-submit/rootprod_20140413_4638.condor
+Retry Drootprod_20140413_4638 1
+SCRIPT HOLD Drootprod_20140413_4638 ./on_hold.sh Drootprod_20140413_4638
+JOB Drootprod_20140414_61266 ./submit_root/2014/npx4-submit/rootprod_20140414_61266.condor
+Retry Drootprod_20140414_61266 1
+SCRIPT HOLD Drootprod_20140414_61266 ./on_hold.sh Drootprod_20140414_61266
+JOB Drootprod_20140415_36018 ./submit_root/2014/npx4-submit/rootprod_20140415_36018.condor
+Retry Drootprod_20140415_36018 1
+SCRIPT HOLD Drootprod_20140415_36018 ./on_hold.sh Drootprod_20140415_36018
+JOB Drootprod_20140416_36748 ./submit_root/2014/npx4-submit/rootprod_20140416_36748.condor
+Retry Drootprod_20140416_36748 1
+SCRIPT HOLD Drootprod_20140416_36748 ./on_hold.sh Drootprod_20140416_36748
+JOB Drootprod_20140417_67868 ./submit_root/2014/npx4-submit/rootprod_20140417_67868.condor
+Retry Drootprod_20140417_67868 1
+SCRIPT HOLD Drootprod_20140417_67868 ./on_hold.sh Drootprod_20140417_67868
+JOB Drootprod_20140418_81163 ./submit_root/2014/npx4-submit/rootprod_20140418_81163.condor
+Retry Drootprod_20140418_81163 1
+SCRIPT HOLD Drootprod_20140418_81163 ./on_hold.sh Drootprod_20140418_81163
+JOB Drootprod_20140419_81597 ./submit_root/2014/npx4-submit/rootprod_20140419_81597.condor
+Retry Drootprod_20140419_81597 1
+SCRIPT HOLD Drootprod_20140419_81597 ./on_hold.sh Drootprod_20140419_81597
+JOB Drootprod_20140420_82377 ./submit_root/2014/npx4-submit/rootprod_20140420_82377.condor
+Retry Drootprod_20140420_82377 1
+SCRIPT HOLD Drootprod_20140420_82377 ./on_hold.sh Drootprod_20140420_82377
+JOB Drootprod_20140421_4216 ./submit_root/2014/npx4-submit/rootprod_20140421_4216.condor
+Retry Drootprod_20140421_4216 1
+SCRIPT HOLD Drootprod_20140421_4216 ./on_hold.sh Drootprod_20140421_4216
+JOB Drootprod_20140422_73943 ./submit_root/2014/npx4-submit/rootprod_20140422_73943.condor
+Retry Drootprod_20140422_73943 1
+SCRIPT HOLD Drootprod_20140422_73943 ./on_hold.sh Drootprod_20140422_73943
+JOB Drootprod_20140423_19427 ./submit_root/2014/npx4-submit/rootprod_20140423_19427.condor
+Retry Drootprod_20140423_19427 1
+SCRIPT HOLD Drootprod_20140423_19427 ./on_hold.sh Drootprod_20140423_19427
+JOB Drootprod_20140424_20176 ./submit_root/2014/npx4-submit/rootprod_20140424_20176.condor
+Retry Drootprod_20140424_20176 1
+SCRIPT HOLD Drootprod_20140424_20176 ./on_hold.sh Drootprod_20140424_20176
+JOB Drootprod_20140425_49622 ./submit_root/2014/npx4-submit/rootprod_20140425_49622.condor
+Retry Drootprod_20140425_49622 1
+SCRIPT HOLD Drootprod_20140425_49622 ./on_hold.sh Drootprod_20140425_49622
+JOB Drootprod_20140426_2286 ./submit_root/2014/npx4-submit/rootprod_20140426_2286.condor
+Retry Drootprod_20140426_2286 1
+SCRIPT HOLD Drootprod_20140426_2286 ./on_hold.sh Drootprod_20140426_2286
+JOB Drootprod_20140427_72687 ./submit_root/2014/npx4-submit/rootprod_20140427_72687.condor
+Retry Drootprod_20140427_72687 1
+SCRIPT HOLD Drootprod_20140427_72687 ./on_hold.sh Drootprod_20140427_72687
+JOB Drootprod_20140428_1970 ./submit_root/2014/npx4-submit/rootprod_20140428_1970.condor
+Retry Drootprod_20140428_1970 1
+SCRIPT HOLD Drootprod_20140428_1970 ./on_hold.sh Drootprod_20140428_1970
+JOB Drootprod_20140429_86660 ./submit_root/2014/npx4-submit/rootprod_20140429_86660.condor
+Retry Drootprod_20140429_86660 1
+SCRIPT HOLD Drootprod_20140429_86660 ./on_hold.sh Drootprod_20140429_86660
+JOB Drootprod_20140430_96545 ./submit_root/2014/npx4-submit/rootprod_20140430_96545.condor
+Retry Drootprod_20140430_96545 1
+SCRIPT HOLD Drootprod_20140430_96545 ./on_hold.sh Drootprod_20140430_96545
+JOB Drootprod_20140501_37471 ./submit_root/2014/npx4-submit/rootprod_20140501_37471.condor
+Retry Drootprod_20140501_37471 1
+SCRIPT HOLD Drootprod_20140501_37471 ./on_hold.sh Drootprod_20140501_37471
+JOB Drootprod_20140502_53 ./submit_root/2014/npx4-submit/rootprod_20140502_53.condor
+Retry Drootprod_20140502_53 1
+SCRIPT HOLD Drootprod_20140502_53 ./on_hold.sh Drootprod_20140502_53
+JOB Drootprod_20140503_50511 ./submit_root/2014/npx4-submit/rootprod_20140503_50511.condor
+Retry Drootprod_20140503_50511 1
+SCRIPT HOLD Drootprod_20140503_50511 ./on_hold.sh Drootprod_20140503_50511
+JOB Drootprod_20140504_20070 ./submit_root/2014/npx4-submit/rootprod_20140504_20070.condor
+Retry Drootprod_20140504_20070 1
+SCRIPT HOLD Drootprod_20140504_20070 ./on_hold.sh Drootprod_20140504_20070
+JOB Drootprod_20140505_53388 ./submit_root/2014/npx4-submit/rootprod_20140505_53388.condor
+Retry Drootprod_20140505_53388 1
+SCRIPT HOLD Drootprod_20140505_53388 ./on_hold.sh Drootprod_20140505_53388
+JOB Drootprod_20140506_97611 ./submit_root/2014/npx4-submit/rootprod_20140506_97611.condor
+Retry Drootprod_20140506_97611 1
+SCRIPT HOLD Drootprod_20140506_97611 ./on_hold.sh Drootprod_20140506_97611
+JOB Drootprod_20140507_31335 ./submit_root/2014/npx4-submit/rootprod_20140507_31335.condor
+Retry Drootprod_20140507_31335 1
+SCRIPT HOLD Drootprod_20140507_31335 ./on_hold.sh Drootprod_20140507_31335
+JOB Drootprod_20140508_9438 ./submit_root/2014/npx4-submit/rootprod_20140508_9438.condor
+Retry Drootprod_20140508_9438 1
+SCRIPT HOLD Drootprod_20140508_9438 ./on_hold.sh Drootprod_20140508_9438
+JOB Drootprod_20140509_19617 ./submit_root/2014/npx4-submit/rootprod_20140509_19617.condor
+Retry Drootprod_20140509_19617 1
+SCRIPT HOLD Drootprod_20140509_19617 ./on_hold.sh Drootprod_20140509_19617
+JOB Drootprod_20140510_38604 ./submit_root/2014/npx4-submit/rootprod_20140510_38604.condor
+Retry Drootprod_20140510_38604 1
+SCRIPT HOLD Drootprod_20140510_38604 ./on_hold.sh Drootprod_20140510_38604
+JOB Drootprod_20140511_78157 ./submit_root/2014/npx4-submit/rootprod_20140511_78157.condor
+Retry Drootprod_20140511_78157 1
+SCRIPT HOLD Drootprod_20140511_78157 ./on_hold.sh Drootprod_20140511_78157
+JOB Drootprod_20140512_48266 ./submit_root/2014/npx4-submit/rootprod_20140512_48266.condor
+Retry Drootprod_20140512_48266 1
+SCRIPT HOLD Drootprod_20140512_48266 ./on_hold.sh Drootprod_20140512_48266
+JOB Drootprod_20140513_23760 ./submit_root/2014/npx4-submit/rootprod_20140513_23760.condor
+Retry Drootprod_20140513_23760 1
+SCRIPT HOLD Drootprod_20140513_23760 ./on_hold.sh Drootprod_20140513_23760
+JOB Drootprod_20140514_90951 ./submit_root/2014/npx4-submit/rootprod_20140514_90951.condor
+Retry Drootprod_20140514_90951 1
+SCRIPT HOLD Drootprod_20140514_90951 ./on_hold.sh Drootprod_20140514_90951
+JOB Drootprod_20140515_40335 ./submit_root/2014/npx4-submit/rootprod_20140515_40335.condor
+Retry Drootprod_20140515_40335 1
+SCRIPT HOLD Drootprod_20140515_40335 ./on_hold.sh Drootprod_20140515_40335
+JOB Drootprod_20140516_64192 ./submit_root/2014/npx4-submit/rootprod_20140516_64192.condor
+Retry Drootprod_20140516_64192 1
+SCRIPT HOLD Drootprod_20140516_64192 ./on_hold.sh Drootprod_20140516_64192
+JOB Drootprod_20140517_24792 ./submit_root/2014/npx4-submit/rootprod_20140517_24792.condor
+Retry Drootprod_20140517_24792 1
+SCRIPT HOLD Drootprod_20140517_24792 ./on_hold.sh Drootprod_20140517_24792
+JOB Drootprod_20140518_26959 ./submit_root/2014/npx4-submit/rootprod_20140518_26959.condor
+Retry Drootprod_20140518_26959 1
+SCRIPT HOLD Drootprod_20140518_26959 ./on_hold.sh Drootprod_20140518_26959
+JOB Drootprod_20140519_51504 ./submit_root/2014/npx4-submit/rootprod_20140519_51504.condor
+Retry Drootprod_20140519_51504 1
+SCRIPT HOLD Drootprod_20140519_51504 ./on_hold.sh Drootprod_20140519_51504
+JOB Drootprod_20140520_79794 ./submit_root/2014/npx4-submit/rootprod_20140520_79794.condor
+Retry Drootprod_20140520_79794 1
+SCRIPT HOLD Drootprod_20140520_79794 ./on_hold.sh Drootprod_20140520_79794
+JOB Drootprod_20140521_11021 ./submit_root/2014/npx4-submit/rootprod_20140521_11021.condor
+Retry Drootprod_20140521_11021 1
+SCRIPT HOLD Drootprod_20140521_11021 ./on_hold.sh Drootprod_20140521_11021
+JOB Drootprod_20140522_84750 ./submit_root/2014/npx4-submit/rootprod_20140522_84750.condor
+Retry Drootprod_20140522_84750 1
+SCRIPT HOLD Drootprod_20140522_84750 ./on_hold.sh Drootprod_20140522_84750
+JOB Drootprod_20140523_10424 ./submit_root/2014/npx4-submit/rootprod_20140523_10424.condor
+Retry Drootprod_20140523_10424 1
+SCRIPT HOLD Drootprod_20140523_10424 ./on_hold.sh Drootprod_20140523_10424
+JOB Drootprod_20140524_42692 ./submit_root/2014/npx4-submit/rootprod_20140524_42692.condor
+Retry Drootprod_20140524_42692 1
+SCRIPT HOLD Drootprod_20140524_42692 ./on_hold.sh Drootprod_20140524_42692
+JOB Drootprod_20140525_3126 ./submit_root/2014/npx4-submit/rootprod_20140525_3126.condor
+Retry Drootprod_20140525_3126 1
+SCRIPT HOLD Drootprod_20140525_3126 ./on_hold.sh Drootprod_20140525_3126
+JOB Drootprod_20140526_23756 ./submit_root/2014/npx4-submit/rootprod_20140526_23756.condor
+Retry Drootprod_20140526_23756 1
+SCRIPT HOLD Drootprod_20140526_23756 ./on_hold.sh Drootprod_20140526_23756
+JOB Drootprod_20140527_79928 ./submit_root/2014/npx4-submit/rootprod_20140527_79928.condor
+Retry Drootprod_20140527_79928 1
+SCRIPT HOLD Drootprod_20140527_79928 ./on_hold.sh Drootprod_20140527_79928
+JOB Drootprod_20140528_77951 ./submit_root/2014/npx4-submit/rootprod_20140528_77951.condor
+Retry Drootprod_20140528_77951 1
+SCRIPT HOLD Drootprod_20140528_77951 ./on_hold.sh Drootprod_20140528_77951
+JOB Drootprod_20140529_25721 ./submit_root/2014/npx4-submit/rootprod_20140529_25721.condor
+Retry Drootprod_20140529_25721 1
+SCRIPT HOLD Drootprod_20140529_25721 ./on_hold.sh Drootprod_20140529_25721
+JOB Drootprod_20140530_31983 ./submit_root/2014/npx4-submit/rootprod_20140530_31983.condor
+Retry Drootprod_20140530_31983 1
+SCRIPT HOLD Drootprod_20140530_31983 ./on_hold.sh Drootprod_20140530_31983
+JOB Drootprod_20140531_18995 ./submit_root/2014/npx4-submit/rootprod_20140531_18995.condor
+Retry Drootprod_20140531_18995 1
+SCRIPT HOLD Drootprod_20140531_18995 ./on_hold.sh Drootprod_20140531_18995
+JOB Drootprod_20140601_86554 ./submit_root/2014/npx4-submit/rootprod_20140601_86554.condor
+Retry Drootprod_20140601_86554 1
+SCRIPT HOLD Drootprod_20140601_86554 ./on_hold.sh Drootprod_20140601_86554
+JOB Drootprod_20140602_35440 ./submit_root/2014/npx4-submit/rootprod_20140602_35440.condor
+Retry Drootprod_20140602_35440 1
+SCRIPT HOLD Drootprod_20140602_35440 ./on_hold.sh Drootprod_20140602_35440
+JOB Drootprod_20140603_669 ./submit_root/2014/npx4-submit/rootprod_20140603_669.condor
+Retry Drootprod_20140603_669 1
+SCRIPT HOLD Drootprod_20140603_669 ./on_hold.sh Drootprod_20140603_669
+JOB Drootprod_20140604_22022 ./submit_root/2014/npx4-submit/rootprod_20140604_22022.condor
+Retry Drootprod_20140604_22022 1
+SCRIPT HOLD Drootprod_20140604_22022 ./on_hold.sh Drootprod_20140604_22022
+JOB Drootprod_20140605_39881 ./submit_root/2014/npx4-submit/rootprod_20140605_39881.condor
+Retry Drootprod_20140605_39881 1
+SCRIPT HOLD Drootprod_20140605_39881 ./on_hold.sh Drootprod_20140605_39881
+JOB Drootprod_20140606_18205 ./submit_root/2014/npx4-submit/rootprod_20140606_18205.condor
+Retry Drootprod_20140606_18205 1
+SCRIPT HOLD Drootprod_20140606_18205 ./on_hold.sh Drootprod_20140606_18205
+JOB Drootprod_20140607_23673 ./submit_root/2014/npx4-submit/rootprod_20140607_23673.condor
+Retry Drootprod_20140607_23673 1
+SCRIPT HOLD Drootprod_20140607_23673 ./on_hold.sh Drootprod_20140607_23673
+JOB Drootprod_20140608_27933 ./submit_root/2014/npx4-submit/rootprod_20140608_27933.condor
+Retry Drootprod_20140608_27933 1
+SCRIPT HOLD Drootprod_20140608_27933 ./on_hold.sh Drootprod_20140608_27933
+JOB Drootprod_20140609_24442 ./submit_root/2014/npx4-submit/rootprod_20140609_24442.condor
+Retry Drootprod_20140609_24442 1
+SCRIPT HOLD Drootprod_20140609_24442 ./on_hold.sh Drootprod_20140609_24442
+JOB Drootprod_20140610_51638 ./submit_root/2014/npx4-submit/rootprod_20140610_51638.condor
+Retry Drootprod_20140610_51638 1
+SCRIPT HOLD Drootprod_20140610_51638 ./on_hold.sh Drootprod_20140610_51638
+JOB Drootprod_20140611_49937 ./submit_root/2014/npx4-submit/rootprod_20140611_49937.condor
+Retry Drootprod_20140611_49937 1
+SCRIPT HOLD Drootprod_20140611_49937 ./on_hold.sh Drootprod_20140611_49937
+JOB Drootprod_20140612_1560 ./submit_root/2014/npx4-submit/rootprod_20140612_1560.condor
+Retry Drootprod_20140612_1560 1
+SCRIPT HOLD Drootprod_20140612_1560 ./on_hold.sh Drootprod_20140612_1560
+JOB Drootprod_20140613_85112 ./submit_root/2014/npx4-submit/rootprod_20140613_85112.condor
+Retry Drootprod_20140613_85112 1
+SCRIPT HOLD Drootprod_20140613_85112 ./on_hold.sh Drootprod_20140613_85112
+JOB Drootprod_20140614_97411 ./submit_root/2014/npx4-submit/rootprod_20140614_97411.condor
+Retry Drootprod_20140614_97411 1
+SCRIPT HOLD Drootprod_20140614_97411 ./on_hold.sh Drootprod_20140614_97411
+JOB Drootprod_20140615_94040 ./submit_root/2014/npx4-submit/rootprod_20140615_94040.condor
+Retry Drootprod_20140615_94040 1
+SCRIPT HOLD Drootprod_20140615_94040 ./on_hold.sh Drootprod_20140615_94040
+JOB Drootprod_20140616_82047 ./submit_root/2014/npx4-submit/rootprod_20140616_82047.condor
+Retry Drootprod_20140616_82047 1
+SCRIPT HOLD Drootprod_20140616_82047 ./on_hold.sh Drootprod_20140616_82047
+JOB Drootprod_20140617_82957 ./submit_root/2014/npx4-submit/rootprod_20140617_82957.condor
+Retry Drootprod_20140617_82957 1
+SCRIPT HOLD Drootprod_20140617_82957 ./on_hold.sh Drootprod_20140617_82957
+JOB Drootprod_20140618_37565 ./submit_root/2014/npx4-submit/rootprod_20140618_37565.condor
+Retry Drootprod_20140618_37565 1
+SCRIPT HOLD Drootprod_20140618_37565 ./on_hold.sh Drootprod_20140618_37565
+JOB Drootprod_20140619_63300 ./submit_root/2014/npx4-submit/rootprod_20140619_63300.condor
+Retry Drootprod_20140619_63300 1
+SCRIPT HOLD Drootprod_20140619_63300 ./on_hold.sh Drootprod_20140619_63300
+JOB Drootprod_20140620_86256 ./submit_root/2014/npx4-submit/rootprod_20140620_86256.condor
+Retry Drootprod_20140620_86256 1
+SCRIPT HOLD Drootprod_20140620_86256 ./on_hold.sh Drootprod_20140620_86256
+JOB Drootprod_20140621_12850 ./submit_root/2014/npx4-submit/rootprod_20140621_12850.condor
+Retry Drootprod_20140621_12850 1
+SCRIPT HOLD Drootprod_20140621_12850 ./on_hold.sh Drootprod_20140621_12850
+JOB Drootprod_20140622_12244 ./submit_root/2014/npx4-submit/rootprod_20140622_12244.condor
+Retry Drootprod_20140622_12244 1
+SCRIPT HOLD Drootprod_20140622_12244 ./on_hold.sh Drootprod_20140622_12244
+JOB Drootprod_20140623_26376 ./submit_root/2014/npx4-submit/rootprod_20140623_26376.condor
+Retry Drootprod_20140623_26376 1
+SCRIPT HOLD Drootprod_20140623_26376 ./on_hold.sh Drootprod_20140623_26376
+JOB Drootprod_20140624_36606 ./submit_root/2014/npx4-submit/rootprod_20140624_36606.condor
+Retry Drootprod_20140624_36606 1
+SCRIPT HOLD Drootprod_20140624_36606 ./on_hold.sh Drootprod_20140624_36606
+JOB Drootprod_20140625_56224 ./submit_root/2014/npx4-submit/rootprod_20140625_56224.condor
+Retry Drootprod_20140625_56224 1
+SCRIPT HOLD Drootprod_20140625_56224 ./on_hold.sh Drootprod_20140625_56224
+JOB Drootprod_20140626_25076 ./submit_root/2014/npx4-submit/rootprod_20140626_25076.condor
+Retry Drootprod_20140626_25076 1
+SCRIPT HOLD Drootprod_20140626_25076 ./on_hold.sh Drootprod_20140626_25076
+JOB Drootprod_20140627_45470 ./submit_root/2014/npx4-submit/rootprod_20140627_45470.condor
+Retry Drootprod_20140627_45470 1
+SCRIPT HOLD Drootprod_20140627_45470 ./on_hold.sh Drootprod_20140627_45470
+JOB Drootprod_20140628_70137 ./submit_root/2014/npx4-submit/rootprod_20140628_70137.condor
+Retry Drootprod_20140628_70137 1
+SCRIPT HOLD Drootprod_20140628_70137 ./on_hold.sh Drootprod_20140628_70137
+JOB Drootprod_20140629_15434 ./submit_root/2014/npx4-submit/rootprod_20140629_15434.condor
+Retry Drootprod_20140629_15434 1
+SCRIPT HOLD Drootprod_20140629_15434 ./on_hold.sh Drootprod_20140629_15434
+JOB Drootprod_20140630_19027 ./submit_root/2014/npx4-submit/rootprod_20140630_19027.condor
+Retry Drootprod_20140630_19027 1
+SCRIPT HOLD Drootprod_20140630_19027 ./on_hold.sh Drootprod_20140630_19027
+JOB Drootprod_20140701_54564 ./submit_root/2014/npx4-submit/rootprod_20140701_54564.condor
+Retry Drootprod_20140701_54564 1
+SCRIPT HOLD Drootprod_20140701_54564 ./on_hold.sh Drootprod_20140701_54564
+JOB Drootprod_20140702_63676 ./submit_root/2014/npx4-submit/rootprod_20140702_63676.condor
+Retry Drootprod_20140702_63676 1
+SCRIPT HOLD Drootprod_20140702_63676 ./on_hold.sh Drootprod_20140702_63676
+JOB Drootprod_20140703_46619 ./submit_root/2014/npx4-submit/rootprod_20140703_46619.condor
+Retry Drootprod_20140703_46619 1
+SCRIPT HOLD Drootprod_20140703_46619 ./on_hold.sh Drootprod_20140703_46619
+JOB Drootprod_20140704_70695 ./submit_root/2014/npx4-submit/rootprod_20140704_70695.condor
+Retry Drootprod_20140704_70695 1
+SCRIPT HOLD Drootprod_20140704_70695 ./on_hold.sh Drootprod_20140704_70695
+JOB Drootprod_20140705_49878 ./submit_root/2014/npx4-submit/rootprod_20140705_49878.condor
+Retry Drootprod_20140705_49878 1
+SCRIPT HOLD Drootprod_20140705_49878 ./on_hold.sh Drootprod_20140705_49878
+JOB Drootprod_20140706_76948 ./submit_root/2014/npx4-submit/rootprod_20140706_76948.condor
+Retry Drootprod_20140706_76948 1
+SCRIPT HOLD Drootprod_20140706_76948 ./on_hold.sh Drootprod_20140706_76948
+JOB Drootprod_20140707_1033 ./submit_root/2014/npx4-submit/rootprod_20140707_1033.condor
+Retry Drootprod_20140707_1033 1
+SCRIPT HOLD Drootprod_20140707_1033 ./on_hold.sh Drootprod_20140707_1033
+JOB Drootprod_20140708_84326 ./submit_root/2014/npx4-submit/rootprod_20140708_84326.condor
+Retry Drootprod_20140708_84326 1
+SCRIPT HOLD Drootprod_20140708_84326 ./on_hold.sh Drootprod_20140708_84326
+JOB Drootprod_20140709_71864 ./submit_root/2014/npx4-submit/rootprod_20140709_71864.condor
+Retry Drootprod_20140709_71864 1
+SCRIPT HOLD Drootprod_20140709_71864 ./on_hold.sh Drootprod_20140709_71864
+JOB Drootprod_20140710_2273 ./submit_root/2014/npx4-submit/rootprod_20140710_2273.condor
+Retry Drootprod_20140710_2273 1
+SCRIPT HOLD Drootprod_20140710_2273 ./on_hold.sh Drootprod_20140710_2273
+JOB Drootprod_20140711_73520 ./submit_root/2014/npx4-submit/rootprod_20140711_73520.condor
+Retry Drootprod_20140711_73520 1
+SCRIPT HOLD Drootprod_20140711_73520 ./on_hold.sh Drootprod_20140711_73520
+JOB Drootprod_20140712_35213 ./submit_root/2014/npx4-submit/rootprod_20140712_35213.condor
+Retry Drootprod_20140712_35213 1
+SCRIPT HOLD Drootprod_20140712_35213 ./on_hold.sh Drootprod_20140712_35213
+JOB Drootprod_20140713_23777 ./submit_root/2014/npx4-submit/rootprod_20140713_23777.condor
+Retry Drootprod_20140713_23777 1
+SCRIPT HOLD Drootprod_20140713_23777 ./on_hold.sh Drootprod_20140713_23777
+JOB Drootprod_20140714_38176 ./submit_root/2014/npx4-submit/rootprod_20140714_38176.condor
+Retry Drootprod_20140714_38176 1
+SCRIPT HOLD Drootprod_20140714_38176 ./on_hold.sh Drootprod_20140714_38176
+JOB Drootprod_20140715_36776 ./submit_root/2014/npx4-submit/rootprod_20140715_36776.condor
+Retry Drootprod_20140715_36776 1
+SCRIPT HOLD Drootprod_20140715_36776 ./on_hold.sh Drootprod_20140715_36776
+JOB Drootprod_20140716_65520 ./submit_root/2014/npx4-submit/rootprod_20140716_65520.condor
+Retry Drootprod_20140716_65520 1
+SCRIPT HOLD Drootprod_20140716_65520 ./on_hold.sh Drootprod_20140716_65520
+JOB Drootprod_20140717_41499 ./submit_root/2014/npx4-submit/rootprod_20140717_41499.condor
+Retry Drootprod_20140717_41499 1
+SCRIPT HOLD Drootprod_20140717_41499 ./on_hold.sh Drootprod_20140717_41499
+JOB Drootprod_20140718_48485 ./submit_root/2014/npx4-submit/rootprod_20140718_48485.condor
+Retry Drootprod_20140718_48485 1
+SCRIPT HOLD Drootprod_20140718_48485 ./on_hold.sh Drootprod_20140718_48485
+JOB Drootprod_20140719_49957 ./submit_root/2014/npx4-submit/rootprod_20140719_49957.condor
+Retry Drootprod_20140719_49957 1
+SCRIPT HOLD Drootprod_20140719_49957 ./on_hold.sh Drootprod_20140719_49957
+JOB Drootprod_20140720_11163 ./submit_root/2014/npx4-submit/rootprod_20140720_11163.condor
+Retry Drootprod_20140720_11163 1
+SCRIPT HOLD Drootprod_20140720_11163 ./on_hold.sh Drootprod_20140720_11163
+JOB Drootprod_20140721_85735 ./submit_root/2014/npx4-submit/rootprod_20140721_85735.condor
+Retry Drootprod_20140721_85735 1
+SCRIPT HOLD Drootprod_20140721_85735 ./on_hold.sh Drootprod_20140721_85735
+JOB Drootprod_20140722_11418 ./submit_root/2014/npx4-submit/rootprod_20140722_11418.condor
+Retry Drootprod_20140722_11418 1
+SCRIPT HOLD Drootprod_20140722_11418 ./on_hold.sh Drootprod_20140722_11418
+JOB Drootprod_20140723_8608 ./submit_root/2014/npx4-submit/rootprod_20140723_8608.condor
+Retry Drootprod_20140723_8608 1
+SCRIPT HOLD Drootprod_20140723_8608 ./on_hold.sh Drootprod_20140723_8608
+JOB Drootprod_20140724_57248 ./submit_root/2014/npx4-submit/rootprod_20140724_57248.condor
+Retry Drootprod_20140724_57248 1
+SCRIPT HOLD Drootprod_20140724_57248 ./on_hold.sh Drootprod_20140724_57248
+JOB Drootprod_20140725_38272 ./submit_root/2014/npx4-submit/rootprod_20140725_38272.condor
+Retry Drootprod_20140725_38272 1
+SCRIPT HOLD Drootprod_20140725_38272 ./on_hold.sh Drootprod_20140725_38272
+JOB Drootprod_20140726_65311 ./submit_root/2014/npx4-submit/rootprod_20140726_65311.condor
+Retry Drootprod_20140726_65311 1
+SCRIPT HOLD Drootprod_20140726_65311 ./on_hold.sh Drootprod_20140726_65311
+JOB Drootprod_20140727_73565 ./submit_root/2014/npx4-submit/rootprod_20140727_73565.condor
+Retry Drootprod_20140727_73565 1
+SCRIPT HOLD Drootprod_20140727_73565 ./on_hold.sh Drootprod_20140727_73565
+JOB Drootprod_20140728_37090 ./submit_root/2014/npx4-submit/rootprod_20140728_37090.condor
+Retry Drootprod_20140728_37090 1
+SCRIPT HOLD Drootprod_20140728_37090 ./on_hold.sh Drootprod_20140728_37090
+JOB Drootprod_20140729_19195 ./submit_root/2014/npx4-submit/rootprod_20140729_19195.condor
+Retry Drootprod_20140729_19195 1
+SCRIPT HOLD Drootprod_20140729_19195 ./on_hold.sh Drootprod_20140729_19195
+JOB Drootprod_20140730_3668 ./submit_root/2014/npx4-submit/rootprod_20140730_3668.condor
+Retry Drootprod_20140730_3668 1
+SCRIPT HOLD Drootprod_20140730_3668 ./on_hold.sh Drootprod_20140730_3668
+JOB Drootprod_20140731_46971 ./submit_root/2014/npx4-submit/rootprod_20140731_46971.condor
+Retry Drootprod_20140731_46971 1
+SCRIPT HOLD Drootprod_20140731_46971 ./on_hold.sh Drootprod_20140731_46971
+JOB Drootprod_20140801_81632 ./submit_root/2014/npx4-submit/rootprod_20140801_81632.condor
+Retry Drootprod_20140801_81632 1
+SCRIPT HOLD Drootprod_20140801_81632 ./on_hold.sh Drootprod_20140801_81632
+JOB Drootprod_20140802_3753 ./submit_root/2014/npx4-submit/rootprod_20140802_3753.condor
+Retry Drootprod_20140802_3753 1
+SCRIPT HOLD Drootprod_20140802_3753 ./on_hold.sh Drootprod_20140802_3753
+JOB Drootprod_20140803_11148 ./submit_root/2014/npx4-submit/rootprod_20140803_11148.condor
+Retry Drootprod_20140803_11148 1
+SCRIPT HOLD Drootprod_20140803_11148 ./on_hold.sh Drootprod_20140803_11148
+JOB Drootprod_20140804_63513 ./submit_root/2014/npx4-submit/rootprod_20140804_63513.condor
+Retry Drootprod_20140804_63513 1
+SCRIPT HOLD Drootprod_20140804_63513 ./on_hold.sh Drootprod_20140804_63513
+JOB Drootprod_20140805_32550 ./submit_root/2014/npx4-submit/rootprod_20140805_32550.condor
+Retry Drootprod_20140805_32550 1
+SCRIPT HOLD Drootprod_20140805_32550 ./on_hold.sh Drootprod_20140805_32550
+JOB Drootprod_20140806_35632 ./submit_root/2014/npx4-submit/rootprod_20140806_35632.condor
+Retry Drootprod_20140806_35632 1
+SCRIPT HOLD Drootprod_20140806_35632 ./on_hold.sh Drootprod_20140806_35632
+JOB Drootprod_20140807_82718 ./submit_root/2014/npx4-submit/rootprod_20140807_82718.condor
+Retry Drootprod_20140807_82718 1
+SCRIPT HOLD Drootprod_20140807_82718 ./on_hold.sh Drootprod_20140807_82718
+JOB Drootprod_20140808_67981 ./submit_root/2014/npx4-submit/rootprod_20140808_67981.condor
+Retry Drootprod_20140808_67981 1
+SCRIPT HOLD Drootprod_20140808_67981 ./on_hold.sh Drootprod_20140808_67981
+JOB Drootprod_20140809_2948 ./submit_root/2014/npx4-submit/rootprod_20140809_2948.condor
+Retry Drootprod_20140809_2948 1
+SCRIPT HOLD Drootprod_20140809_2948 ./on_hold.sh Drootprod_20140809_2948
+JOB Drootprod_20140810_95815 ./submit_root/2014/npx4-submit/rootprod_20140810_95815.condor
+Retry Drootprod_20140810_95815 1
+SCRIPT HOLD Drootprod_20140810_95815 ./on_hold.sh Drootprod_20140810_95815
+JOB Drootprod_20140811_29607 ./submit_root/2014/npx4-submit/rootprod_20140811_29607.condor
+Retry Drootprod_20140811_29607 1
+SCRIPT HOLD Drootprod_20140811_29607 ./on_hold.sh Drootprod_20140811_29607
+JOB Drootprod_20140812_63635 ./submit_root/2014/npx4-submit/rootprod_20140812_63635.condor
+Retry Drootprod_20140812_63635 1
+SCRIPT HOLD Drootprod_20140812_63635 ./on_hold.sh Drootprod_20140812_63635
+JOB Drootprod_20140813_70929 ./submit_root/2014/npx4-submit/rootprod_20140813_70929.condor
+Retry Drootprod_20140813_70929 1
+SCRIPT HOLD Drootprod_20140813_70929 ./on_hold.sh Drootprod_20140813_70929
+JOB Drootprod_20140814_36198 ./submit_root/2014/npx4-submit/rootprod_20140814_36198.condor
+Retry Drootprod_20140814_36198 1
+SCRIPT HOLD Drootprod_20140814_36198 ./on_hold.sh Drootprod_20140814_36198
+JOB Drootprod_20140815_33163 ./submit_root/2014/npx4-submit/rootprod_20140815_33163.condor
+Retry Drootprod_20140815_33163 1
+SCRIPT HOLD Drootprod_20140815_33163 ./on_hold.sh Drootprod_20140815_33163
+JOB Drootprod_20140816_85282 ./submit_root/2014/npx4-submit/rootprod_20140816_85282.condor
+Retry Drootprod_20140816_85282 1
+SCRIPT HOLD Drootprod_20140816_85282 ./on_hold.sh Drootprod_20140816_85282
+JOB Drootprod_20140817_90760 ./submit_root/2014/npx4-submit/rootprod_20140817_90760.condor
+Retry Drootprod_20140817_90760 1
+SCRIPT HOLD Drootprod_20140817_90760 ./on_hold.sh Drootprod_20140817_90760
+JOB Drootprod_20140818_9369 ./submit_root/2014/npx4-submit/rootprod_20140818_9369.condor
+Retry Drootprod_20140818_9369 1
+SCRIPT HOLD Drootprod_20140818_9369 ./on_hold.sh Drootprod_20140818_9369
+JOB Drootprod_20140819_31451 ./submit_root/2014/npx4-submit/rootprod_20140819_31451.condor
+Retry Drootprod_20140819_31451 1
+SCRIPT HOLD Drootprod_20140819_31451 ./on_hold.sh Drootprod_20140819_31451
+JOB Drootprod_20140820_36100 ./submit_root/2014/npx4-submit/rootprod_20140820_36100.condor
+Retry Drootprod_20140820_36100 1
+SCRIPT HOLD Drootprod_20140820_36100 ./on_hold.sh Drootprod_20140820_36100
+JOB Drootprod_20140821_50289 ./submit_root/2014/npx4-submit/rootprod_20140821_50289.condor
+Retry Drootprod_20140821_50289 1
+SCRIPT HOLD Drootprod_20140821_50289 ./on_hold.sh Drootprod_20140821_50289
+JOB Drootprod_20140822_11533 ./submit_root/2014/npx4-submit/rootprod_20140822_11533.condor
+Retry Drootprod_20140822_11533 1
+SCRIPT HOLD Drootprod_20140822_11533 ./on_hold.sh Drootprod_20140822_11533
+JOB Drootprod_20140823_90662 ./submit_root/2014/npx4-submit/rootprod_20140823_90662.condor
+Retry Drootprod_20140823_90662 1
+SCRIPT HOLD Drootprod_20140823_90662 ./on_hold.sh Drootprod_20140823_90662
+JOB Drootprod_20140824_52895 ./submit_root/2014/npx4-submit/rootprod_20140824_52895.condor
+Retry Drootprod_20140824_52895 1
+SCRIPT HOLD Drootprod_20140824_52895 ./on_hold.sh Drootprod_20140824_52895
+JOB Drootprod_20140825_41030 ./submit_root/2014/npx4-submit/rootprod_20140825_41030.condor
+Retry Drootprod_20140825_41030 1
+SCRIPT HOLD Drootprod_20140825_41030 ./on_hold.sh Drootprod_20140825_41030
+JOB Drootprod_20140826_3588 ./submit_root/2014/npx4-submit/rootprod_20140826_3588.condor
+Retry Drootprod_20140826_3588 1
+SCRIPT HOLD Drootprod_20140826_3588 ./on_hold.sh Drootprod_20140826_3588
+JOB Drootprod_20140827_13465 ./submit_root/2014/npx4-submit/rootprod_20140827_13465.condor
+Retry Drootprod_20140827_13465 1
+SCRIPT HOLD Drootprod_20140827_13465 ./on_hold.sh Drootprod_20140827_13465
+JOB Drootprod_20140828_2505 ./submit_root/2014/npx4-submit/rootprod_20140828_2505.condor
+Retry Drootprod_20140828_2505 1
+SCRIPT HOLD Drootprod_20140828_2505 ./on_hold.sh Drootprod_20140828_2505
+JOB Drootprod_20140829_2461 ./submit_root/2014/npx4-submit/rootprod_20140829_2461.condor
+Retry Drootprod_20140829_2461 1
+SCRIPT HOLD Drootprod_20140829_2461 ./on_hold.sh Drootprod_20140829_2461
+JOB Drootprod_20140830_26724 ./submit_root/2014/npx4-submit/rootprod_20140830_26724.condor
+Retry Drootprod_20140830_26724 1
+SCRIPT HOLD Drootprod_20140830_26724 ./on_hold.sh Drootprod_20140830_26724
+JOB Drootprod_20140831_3135 ./submit_root/2014/npx4-submit/rootprod_20140831_3135.condor
+Retry Drootprod_20140831_3135 1
+SCRIPT HOLD Drootprod_20140831_3135 ./on_hold.sh Drootprod_20140831_3135
+JOB Drootprod_20140901_56673 ./submit_root/2014/npx4-submit/rootprod_20140901_56673.condor
+Retry Drootprod_20140901_56673 1
+SCRIPT HOLD Drootprod_20140901_56673 ./on_hold.sh Drootprod_20140901_56673
+JOB Drootprod_20140902_65641 ./submit_root/2014/npx4-submit/rootprod_20140902_65641.condor
+Retry Drootprod_20140902_65641 1
+SCRIPT HOLD Drootprod_20140902_65641 ./on_hold.sh Drootprod_20140902_65641
+JOB Drootprod_20140903_13547 ./submit_root/2014/npx4-submit/rootprod_20140903_13547.condor
+Retry Drootprod_20140903_13547 1
+SCRIPT HOLD Drootprod_20140903_13547 ./on_hold.sh Drootprod_20140903_13547
+JOB Drootprod_20140904_67231 ./submit_root/2014/npx4-submit/rootprod_20140904_67231.condor
+Retry Drootprod_20140904_67231 1
+SCRIPT HOLD Drootprod_20140904_67231 ./on_hold.sh Drootprod_20140904_67231
+JOB Drootprod_20140905_10893 ./submit_root/2014/npx4-submit/rootprod_20140905_10893.condor
+Retry Drootprod_20140905_10893 1
+SCRIPT HOLD Drootprod_20140905_10893 ./on_hold.sh Drootprod_20140905_10893
+JOB Drootprod_20140906_33327 ./submit_root/2014/npx4-submit/rootprod_20140906_33327.condor
+Retry Drootprod_20140906_33327 1
+SCRIPT HOLD Drootprod_20140906_33327 ./on_hold.sh Drootprod_20140906_33327
+JOB Drootprod_20140907_2396 ./submit_root/2014/npx4-submit/rootprod_20140907_2396.condor
+Retry Drootprod_20140907_2396 1
+SCRIPT HOLD Drootprod_20140907_2396 ./on_hold.sh Drootprod_20140907_2396
+JOB Drootprod_20140908_12752 ./submit_root/2014/npx4-submit/rootprod_20140908_12752.condor
+Retry Drootprod_20140908_12752 1
+SCRIPT HOLD Drootprod_20140908_12752 ./on_hold.sh Drootprod_20140908_12752
+JOB Drootprod_20140909_62152 ./submit_root/2014/npx4-submit/rootprod_20140909_62152.condor
+Retry Drootprod_20140909_62152 1
+SCRIPT HOLD Drootprod_20140909_62152 ./on_hold.sh Drootprod_20140909_62152
+JOB Drootprod_20140910_30913 ./submit_root/2014/npx4-submit/rootprod_20140910_30913.condor
+Retry Drootprod_20140910_30913 1
+SCRIPT HOLD Drootprod_20140910_30913 ./on_hold.sh Drootprod_20140910_30913
+JOB Drootprod_20140911_47563 ./submit_root/2014/npx4-submit/rootprod_20140911_47563.condor
+Retry Drootprod_20140911_47563 1
+SCRIPT HOLD Drootprod_20140911_47563 ./on_hold.sh Drootprod_20140911_47563
+JOB Drootprod_20140912_71797 ./submit_root/2014/npx4-submit/rootprod_20140912_71797.condor
+Retry Drootprod_20140912_71797 1
+SCRIPT HOLD Drootprod_20140912_71797 ./on_hold.sh Drootprod_20140912_71797
+JOB Drootprod_20140913_93497 ./submit_root/2014/npx4-submit/rootprod_20140913_93497.condor
+Retry Drootprod_20140913_93497 1
+SCRIPT HOLD Drootprod_20140913_93497 ./on_hold.sh Drootprod_20140913_93497
+JOB Drootprod_20140914_29979 ./submit_root/2014/npx4-submit/rootprod_20140914_29979.condor
+Retry Drootprod_20140914_29979 1
+SCRIPT HOLD Drootprod_20140914_29979 ./on_hold.sh Drootprod_20140914_29979
+JOB Drootprod_20140915_57064 ./submit_root/2014/npx4-submit/rootprod_20140915_57064.condor
+Retry Drootprod_20140915_57064 1
+SCRIPT HOLD Drootprod_20140915_57064 ./on_hold.sh Drootprod_20140915_57064
+JOB Drootprod_20140916_52704 ./submit_root/2014/npx4-submit/rootprod_20140916_52704.condor
+Retry Drootprod_20140916_52704 1
+SCRIPT HOLD Drootprod_20140916_52704 ./on_hold.sh Drootprod_20140916_52704
+JOB Drootprod_20140917_29617 ./submit_root/2014/npx4-submit/rootprod_20140917_29617.condor
+Retry Drootprod_20140917_29617 1
+SCRIPT HOLD Drootprod_20140917_29617 ./on_hold.sh Drootprod_20140917_29617
+JOB Drootprod_20140918_65361 ./submit_root/2014/npx4-submit/rootprod_20140918_65361.condor
+Retry Drootprod_20140918_65361 1
+SCRIPT HOLD Drootprod_20140918_65361 ./on_hold.sh Drootprod_20140918_65361
+JOB Drootprod_20140919_56089 ./submit_root/2014/npx4-submit/rootprod_20140919_56089.condor
+Retry Drootprod_20140919_56089 1
+SCRIPT HOLD Drootprod_20140919_56089 ./on_hold.sh Drootprod_20140919_56089
+JOB Drootprod_20140920_53444 ./submit_root/2014/npx4-submit/rootprod_20140920_53444.condor
+Retry Drootprod_20140920_53444 1
+SCRIPT HOLD Drootprod_20140920_53444 ./on_hold.sh Drootprod_20140920_53444
+JOB Drootprod_20140921_60544 ./submit_root/2014/npx4-submit/rootprod_20140921_60544.condor
+Retry Drootprod_20140921_60544 1
+SCRIPT HOLD Drootprod_20140921_60544 ./on_hold.sh Drootprod_20140921_60544
+JOB Drootprod_20140922_89342 ./submit_root/2014/npx4-submit/rootprod_20140922_89342.condor
+Retry Drootprod_20140922_89342 1
+SCRIPT HOLD Drootprod_20140922_89342 ./on_hold.sh Drootprod_20140922_89342
+JOB Drootprod_20140923_51652 ./submit_root/2014/npx4-submit/rootprod_20140923_51652.condor
+Retry Drootprod_20140923_51652 1
+SCRIPT HOLD Drootprod_20140923_51652 ./on_hold.sh Drootprod_20140923_51652
+JOB Drootprod_20140924_59286 ./submit_root/2014/npx4-submit/rootprod_20140924_59286.condor
+Retry Drootprod_20140924_59286 1
+SCRIPT HOLD Drootprod_20140924_59286 ./on_hold.sh Drootprod_20140924_59286
+JOB Drootprod_20140925_2125 ./submit_root/2014/npx4-submit/rootprod_20140925_2125.condor
+Retry Drootprod_20140925_2125 1
+SCRIPT HOLD Drootprod_20140925_2125 ./on_hold.sh Drootprod_20140925_2125
+JOB Drootprod_20140926_16840 ./submit_root/2014/npx4-submit/rootprod_20140926_16840.condor
+Retry Drootprod_20140926_16840 1
+SCRIPT HOLD Drootprod_20140926_16840 ./on_hold.sh Drootprod_20140926_16840
+JOB Drootprod_20140927_74257 ./submit_root/2014/npx4-submit/rootprod_20140927_74257.condor
+Retry Drootprod_20140927_74257 1
+SCRIPT HOLD Drootprod_20140927_74257 ./on_hold.sh Drootprod_20140927_74257
+JOB Drootprod_20140928_5435 ./submit_root/2014/npx4-submit/rootprod_20140928_5435.condor
+Retry Drootprod_20140928_5435 1
+SCRIPT HOLD Drootprod_20140928_5435 ./on_hold.sh Drootprod_20140928_5435
+JOB Drootprod_20140929_75907 ./submit_root/2014/npx4-submit/rootprod_20140929_75907.condor
+Retry Drootprod_20140929_75907 1
+SCRIPT HOLD Drootprod_20140929_75907 ./on_hold.sh Drootprod_20140929_75907
+JOB Drootprod_20140930_97315 ./submit_root/2014/npx4-submit/rootprod_20140930_97315.condor
+Retry Drootprod_20140930_97315 1
+SCRIPT HOLD Drootprod_20140930_97315 ./on_hold.sh Drootprod_20140930_97315
+JOB Drootprod_20141001_32827 ./submit_root/2014/npx4-submit/rootprod_20141001_32827.condor
+Retry Drootprod_20141001_32827 1
+SCRIPT HOLD Drootprod_20141001_32827 ./on_hold.sh Drootprod_20141001_32827
+JOB Drootprod_20141002_18678 ./submit_root/2014/npx4-submit/rootprod_20141002_18678.condor
+Retry Drootprod_20141002_18678 1
+SCRIPT HOLD Drootprod_20141002_18678 ./on_hold.sh Drootprod_20141002_18678
+JOB Drootprod_20141003_37348 ./submit_root/2014/npx4-submit/rootprod_20141003_37348.condor
+Retry Drootprod_20141003_37348 1
+SCRIPT HOLD Drootprod_20141003_37348 ./on_hold.sh Drootprod_20141003_37348
+JOB Drootprod_20141004_63157 ./submit_root/2014/npx4-submit/rootprod_20141004_63157.condor
+Retry Drootprod_20141004_63157 1
+SCRIPT HOLD Drootprod_20141004_63157 ./on_hold.sh Drootprod_20141004_63157
+JOB Drootprod_20141005_9358 ./submit_root/2014/npx4-submit/rootprod_20141005_9358.condor
+Retry Drootprod_20141005_9358 1
+SCRIPT HOLD Drootprod_20141005_9358 ./on_hold.sh Drootprod_20141005_9358
+JOB Drootprod_20141006_40283 ./submit_root/2014/npx4-submit/rootprod_20141006_40283.condor
+Retry Drootprod_20141006_40283 1
+SCRIPT HOLD Drootprod_20141006_40283 ./on_hold.sh Drootprod_20141006_40283
+JOB Drootprod_20141007_17713 ./submit_root/2014/npx4-submit/rootprod_20141007_17713.condor
+Retry Drootprod_20141007_17713 1
+SCRIPT HOLD Drootprod_20141007_17713 ./on_hold.sh Drootprod_20141007_17713
+JOB Drootprod_20141008_12579 ./submit_root/2014/npx4-submit/rootprod_20141008_12579.condor
+Retry Drootprod_20141008_12579 1
+SCRIPT HOLD Drootprod_20141008_12579 ./on_hold.sh Drootprod_20141008_12579
+JOB Drootprod_20141009_80436 ./submit_root/2014/npx4-submit/rootprod_20141009_80436.condor
+Retry Drootprod_20141009_80436 1
+SCRIPT HOLD Drootprod_20141009_80436 ./on_hold.sh Drootprod_20141009_80436
+JOB Drootprod_20141010_41718 ./submit_root/2014/npx4-submit/rootprod_20141010_41718.condor
+Retry Drootprod_20141010_41718 1
+SCRIPT HOLD Drootprod_20141010_41718 ./on_hold.sh Drootprod_20141010_41718
+JOB Drootprod_20141011_98941 ./submit_root/2014/npx4-submit/rootprod_20141011_98941.condor
+Retry Drootprod_20141011_98941 1
+SCRIPT HOLD Drootprod_20141011_98941 ./on_hold.sh Drootprod_20141011_98941
+JOB Drootprod_20141012_96857 ./submit_root/2014/npx4-submit/rootprod_20141012_96857.condor
+Retry Drootprod_20141012_96857 1
+SCRIPT HOLD Drootprod_20141012_96857 ./on_hold.sh Drootprod_20141012_96857
+JOB Drootprod_20141013_1636 ./submit_root/2014/npx4-submit/rootprod_20141013_1636.condor
+Retry Drootprod_20141013_1636 1
+SCRIPT HOLD Drootprod_20141013_1636 ./on_hold.sh Drootprod_20141013_1636
+JOB Drootprod_20141014_90071 ./submit_root/2014/npx4-submit/rootprod_20141014_90071.condor
+Retry Drootprod_20141014_90071 1
+SCRIPT HOLD Drootprod_20141014_90071 ./on_hold.sh Drootprod_20141014_90071
+JOB Drootprod_20141015_92490 ./submit_root/2014/npx4-submit/rootprod_20141015_92490.condor
+Retry Drootprod_20141015_92490 1
+SCRIPT HOLD Drootprod_20141015_92490 ./on_hold.sh Drootprod_20141015_92490
+JOB Drootprod_20141016_70946 ./submit_root/2014/npx4-submit/rootprod_20141016_70946.condor
+Retry Drootprod_20141016_70946 1
+SCRIPT HOLD Drootprod_20141016_70946 ./on_hold.sh Drootprod_20141016_70946
+JOB Drootprod_20141017_42708 ./submit_root/2014/npx4-submit/rootprod_20141017_42708.condor
+Retry Drootprod_20141017_42708 1
+SCRIPT HOLD Drootprod_20141017_42708 ./on_hold.sh Drootprod_20141017_42708
+JOB Drootprod_20141018_55459 ./submit_root/2014/npx4-submit/rootprod_20141018_55459.condor
+Retry Drootprod_20141018_55459 1
+SCRIPT HOLD Drootprod_20141018_55459 ./on_hold.sh Drootprod_20141018_55459
+JOB Drootprod_20141019_6067 ./submit_root/2014/npx4-submit/rootprod_20141019_6067.condor
+Retry Drootprod_20141019_6067 1
+SCRIPT HOLD Drootprod_20141019_6067 ./on_hold.sh Drootprod_20141019_6067
+JOB Drootprod_20141020_48946 ./submit_root/2014/npx4-submit/rootprod_20141020_48946.condor
+Retry Drootprod_20141020_48946 1
+SCRIPT HOLD Drootprod_20141020_48946 ./on_hold.sh Drootprod_20141020_48946
+JOB Drootprod_20141021_95529 ./submit_root/2014/npx4-submit/rootprod_20141021_95529.condor
+Retry Drootprod_20141021_95529 1
+SCRIPT HOLD Drootprod_20141021_95529 ./on_hold.sh Drootprod_20141021_95529
+JOB Drootprod_20141022_77891 ./submit_root/2014/npx4-submit/rootprod_20141022_77891.condor
+Retry Drootprod_20141022_77891 1
+SCRIPT HOLD Drootprod_20141022_77891 ./on_hold.sh Drootprod_20141022_77891
+JOB Drootprod_20141023_7608 ./submit_root/2014/npx4-submit/rootprod_20141023_7608.condor
+Retry Drootprod_20141023_7608 1
+SCRIPT HOLD Drootprod_20141023_7608 ./on_hold.sh Drootprod_20141023_7608
+JOB Drootprod_20141024_39176 ./submit_root/2014/npx4-submit/rootprod_20141024_39176.condor
+Retry Drootprod_20141024_39176 1
+SCRIPT HOLD Drootprod_20141024_39176 ./on_hold.sh Drootprod_20141024_39176
+JOB Drootprod_20141025_30880 ./submit_root/2014/npx4-submit/rootprod_20141025_30880.condor
+Retry Drootprod_20141025_30880 1
+SCRIPT HOLD Drootprod_20141025_30880 ./on_hold.sh Drootprod_20141025_30880
+JOB Drootprod_20141026_65493 ./submit_root/2014/npx4-submit/rootprod_20141026_65493.condor
+Retry Drootprod_20141026_65493 1
+SCRIPT HOLD Drootprod_20141026_65493 ./on_hold.sh Drootprod_20141026_65493
+JOB Drootprod_20141027_45609 ./submit_root/2014/npx4-submit/rootprod_20141027_45609.condor
+Retry Drootprod_20141027_45609 1
+SCRIPT HOLD Drootprod_20141027_45609 ./on_hold.sh Drootprod_20141027_45609
+JOB Drootprod_20141028_45440 ./submit_root/2014/npx4-submit/rootprod_20141028_45440.condor
+Retry Drootprod_20141028_45440 1
+SCRIPT HOLD Drootprod_20141028_45440 ./on_hold.sh Drootprod_20141028_45440
+JOB Drootprod_20141029_69975 ./submit_root/2014/npx4-submit/rootprod_20141029_69975.condor
+Retry Drootprod_20141029_69975 1
+SCRIPT HOLD Drootprod_20141029_69975 ./on_hold.sh Drootprod_20141029_69975
+JOB Drootprod_20141030_64199 ./submit_root/2014/npx4-submit/rootprod_20141030_64199.condor
+Retry Drootprod_20141030_64199 1
+SCRIPT HOLD Drootprod_20141030_64199 ./on_hold.sh Drootprod_20141030_64199
+JOB Drootprod_20141031_47939 ./submit_root/2014/npx4-submit/rootprod_20141031_47939.condor
+Retry Drootprod_20141031_47939 1
+SCRIPT HOLD Drootprod_20141031_47939 ./on_hold.sh Drootprod_20141031_47939
+JOB Drootprod_20141101_10167 ./submit_root/2014/npx4-submit/rootprod_20141101_10167.condor
+Retry Drootprod_20141101_10167 1
+SCRIPT HOLD Drootprod_20141101_10167 ./on_hold.sh Drootprod_20141101_10167
+JOB Drootprod_20141102_11815 ./submit_root/2014/npx4-submit/rootprod_20141102_11815.condor
+Retry Drootprod_20141102_11815 1
+SCRIPT HOLD Drootprod_20141102_11815 ./on_hold.sh Drootprod_20141102_11815
+JOB Drootprod_20141103_16828 ./submit_root/2014/npx4-submit/rootprod_20141103_16828.condor
+Retry Drootprod_20141103_16828 1
+SCRIPT HOLD Drootprod_20141103_16828 ./on_hold.sh Drootprod_20141103_16828
+JOB Drootprod_20141104_74787 ./submit_root/2014/npx4-submit/rootprod_20141104_74787.condor
+Retry Drootprod_20141104_74787 1
+SCRIPT HOLD Drootprod_20141104_74787 ./on_hold.sh Drootprod_20141104_74787
+JOB Drootprod_20141105_39837 ./submit_root/2014/npx4-submit/rootprod_20141105_39837.condor
+Retry Drootprod_20141105_39837 1
+SCRIPT HOLD Drootprod_20141105_39837 ./on_hold.sh Drootprod_20141105_39837
+JOB Drootprod_20141106_34739 ./submit_root/2014/npx4-submit/rootprod_20141106_34739.condor
+Retry Drootprod_20141106_34739 1
+SCRIPT HOLD Drootprod_20141106_34739 ./on_hold.sh Drootprod_20141106_34739
+JOB Drootprod_20141107_70831 ./submit_root/2014/npx4-submit/rootprod_20141107_70831.condor
+Retry Drootprod_20141107_70831 1
+SCRIPT HOLD Drootprod_20141107_70831 ./on_hold.sh Drootprod_20141107_70831
+JOB Drootprod_20141108_35247 ./submit_root/2014/npx4-submit/rootprod_20141108_35247.condor
+Retry Drootprod_20141108_35247 1
+SCRIPT HOLD Drootprod_20141108_35247 ./on_hold.sh Drootprod_20141108_35247
+JOB Drootprod_20141109_89026 ./submit_root/2014/npx4-submit/rootprod_20141109_89026.condor
+Retry Drootprod_20141109_89026 1
+SCRIPT HOLD Drootprod_20141109_89026 ./on_hold.sh Drootprod_20141109_89026
+JOB Drootprod_20141110_1900 ./submit_root/2014/npx4-submit/rootprod_20141110_1900.condor
+Retry Drootprod_20141110_1900 1
+SCRIPT HOLD Drootprod_20141110_1900 ./on_hold.sh Drootprod_20141110_1900
+JOB Drootprod_20141111_28999 ./submit_root/2014/npx4-submit/rootprod_20141111_28999.condor
+Retry Drootprod_20141111_28999 1
+SCRIPT HOLD Drootprod_20141111_28999 ./on_hold.sh Drootprod_20141111_28999
+JOB Drootprod_20141112_14142 ./submit_root/2014/npx4-submit/rootprod_20141112_14142.condor
+Retry Drootprod_20141112_14142 1
+SCRIPT HOLD Drootprod_20141112_14142 ./on_hold.sh Drootprod_20141112_14142
+JOB Drootprod_20141113_2995 ./submit_root/2014/npx4-submit/rootprod_20141113_2995.condor
+Retry Drootprod_20141113_2995 1
+SCRIPT HOLD Drootprod_20141113_2995 ./on_hold.sh Drootprod_20141113_2995
+JOB Drootprod_20141114_12511 ./submit_root/2014/npx4-submit/rootprod_20141114_12511.condor
+Retry Drootprod_20141114_12511 1
+SCRIPT HOLD Drootprod_20141114_12511 ./on_hold.sh Drootprod_20141114_12511
+JOB Drootprod_20141115_73608 ./submit_root/2014/npx4-submit/rootprod_20141115_73608.condor
+Retry Drootprod_20141115_73608 1
+SCRIPT HOLD Drootprod_20141115_73608 ./on_hold.sh Drootprod_20141115_73608
+JOB Drootprod_20141116_29659 ./submit_root/2014/npx4-submit/rootprod_20141116_29659.condor
+Retry Drootprod_20141116_29659 1
+SCRIPT HOLD Drootprod_20141116_29659 ./on_hold.sh Drootprod_20141116_29659
+JOB Drootprod_20141117_37752 ./submit_root/2014/npx4-submit/rootprod_20141117_37752.condor
+Retry Drootprod_20141117_37752 1
+SCRIPT HOLD Drootprod_20141117_37752 ./on_hold.sh Drootprod_20141117_37752
+JOB Drootprod_20141118_81510 ./submit_root/2014/npx4-submit/rootprod_20141118_81510.condor
+Retry Drootprod_20141118_81510 1
+SCRIPT HOLD Drootprod_20141118_81510 ./on_hold.sh Drootprod_20141118_81510
+JOB Drootprod_20141119_30948 ./submit_root/2014/npx4-submit/rootprod_20141119_30948.condor
+Retry Drootprod_20141119_30948 1
+SCRIPT HOLD Drootprod_20141119_30948 ./on_hold.sh Drootprod_20141119_30948
+JOB Drootprod_20141120_16464 ./submit_root/2014/npx4-submit/rootprod_20141120_16464.condor
+Retry Drootprod_20141120_16464 1
+SCRIPT HOLD Drootprod_20141120_16464 ./on_hold.sh Drootprod_20141120_16464
+JOB Drootprod_20141121_89996 ./submit_root/2014/npx4-submit/rootprod_20141121_89996.condor
+Retry Drootprod_20141121_89996 1
+SCRIPT HOLD Drootprod_20141121_89996 ./on_hold.sh Drootprod_20141121_89996
+JOB Drootprod_20141122_76044 ./submit_root/2014/npx4-submit/rootprod_20141122_76044.condor
+Retry Drootprod_20141122_76044 1
+SCRIPT HOLD Drootprod_20141122_76044 ./on_hold.sh Drootprod_20141122_76044
+JOB Drootprod_20141123_66479 ./submit_root/2014/npx4-submit/rootprod_20141123_66479.condor
+Retry Drootprod_20141123_66479 1
+SCRIPT HOLD Drootprod_20141123_66479 ./on_hold.sh Drootprod_20141123_66479
+JOB Drootprod_20141124_60001 ./submit_root/2014/npx4-submit/rootprod_20141124_60001.condor
+Retry Drootprod_20141124_60001 1
+SCRIPT HOLD Drootprod_20141124_60001 ./on_hold.sh Drootprod_20141124_60001
+JOB Drootprod_20141125_84240 ./submit_root/2014/npx4-submit/rootprod_20141125_84240.condor
+Retry Drootprod_20141125_84240 1
+SCRIPT HOLD Drootprod_20141125_84240 ./on_hold.sh Drootprod_20141125_84240
+JOB Drootprod_20141126_72193 ./submit_root/2014/npx4-submit/rootprod_20141126_72193.condor
+Retry Drootprod_20141126_72193 1
+SCRIPT HOLD Drootprod_20141126_72193 ./on_hold.sh Drootprod_20141126_72193
+JOB Drootprod_20141127_38748 ./submit_root/2014/npx4-submit/rootprod_20141127_38748.condor
+Retry Drootprod_20141127_38748 1
+SCRIPT HOLD Drootprod_20141127_38748 ./on_hold.sh Drootprod_20141127_38748
+JOB Drootprod_20141128_23374 ./submit_root/2014/npx4-submit/rootprod_20141128_23374.condor
+Retry Drootprod_20141128_23374 1
+SCRIPT HOLD Drootprod_20141128_23374 ./on_hold.sh Drootprod_20141128_23374
+JOB Drootprod_20141129_25020 ./submit_root/2014/npx4-submit/rootprod_20141129_25020.condor
+Retry Drootprod_20141129_25020 1
+SCRIPT HOLD Drootprod_20141129_25020 ./on_hold.sh Drootprod_20141129_25020
+JOB Drootprod_20141201_89526 ./submit_root/2014/npx4-submit/rootprod_20141201_89526.condor
+Retry Drootprod_20141201_89526 1
+SCRIPT HOLD Drootprod_20141201_89526 ./on_hold.sh Drootprod_20141201_89526
+JOB Drootprod_20141202_96362 ./submit_root/2014/npx4-submit/rootprod_20141202_96362.condor
+Retry Drootprod_20141202_96362 1
+SCRIPT HOLD Drootprod_20141202_96362 ./on_hold.sh Drootprod_20141202_96362
+JOB Drootprod_20141203_68716 ./submit_root/2014/npx4-submit/rootprod_20141203_68716.condor
+Retry Drootprod_20141203_68716 1
+SCRIPT HOLD Drootprod_20141203_68716 ./on_hold.sh Drootprod_20141203_68716
+JOB Drootprod_20141204_34195 ./submit_root/2014/npx4-submit/rootprod_20141204_34195.condor
+Retry Drootprod_20141204_34195 1
+SCRIPT HOLD Drootprod_20141204_34195 ./on_hold.sh Drootprod_20141204_34195
+JOB Drootprod_20141205_31845 ./submit_root/2014/npx4-submit/rootprod_20141205_31845.condor
+Retry Drootprod_20141205_31845 1
+SCRIPT HOLD Drootprod_20141205_31845 ./on_hold.sh Drootprod_20141205_31845
+JOB Drootprod_20141206_30895 ./submit_root/2014/npx4-submit/rootprod_20141206_30895.condor
+Retry Drootprod_20141206_30895 1
+SCRIPT HOLD Drootprod_20141206_30895 ./on_hold.sh Drootprod_20141206_30895
+JOB Drootprod_20141207_76747 ./submit_root/2014/npx4-submit/rootprod_20141207_76747.condor
+Retry Drootprod_20141207_76747 1
+SCRIPT HOLD Drootprod_20141207_76747 ./on_hold.sh Drootprod_20141207_76747
+JOB Drootprod_20141208_59028 ./submit_root/2014/npx4-submit/rootprod_20141208_59028.condor
+Retry Drootprod_20141208_59028 1
+SCRIPT HOLD Drootprod_20141208_59028 ./on_hold.sh Drootprod_20141208_59028
+JOB Drootprod_20141209_7305 ./submit_root/2014/npx4-submit/rootprod_20141209_7305.condor
+Retry Drootprod_20141209_7305 1
+SCRIPT HOLD Drootprod_20141209_7305 ./on_hold.sh Drootprod_20141209_7305
+JOB Drootprod_20141210_68467 ./submit_root/2014/npx4-submit/rootprod_20141210_68467.condor
+Retry Drootprod_20141210_68467 1
+SCRIPT HOLD Drootprod_20141210_68467 ./on_hold.sh Drootprod_20141210_68467
+JOB Drootprod_20141211_71674 ./submit_root/2014/npx4-submit/rootprod_20141211_71674.condor
+Retry Drootprod_20141211_71674 1
+SCRIPT HOLD Drootprod_20141211_71674 ./on_hold.sh Drootprod_20141211_71674
+JOB Drootprod_20141212_78368 ./submit_root/2014/npx4-submit/rootprod_20141212_78368.condor
+Retry Drootprod_20141212_78368 1
+SCRIPT HOLD Drootprod_20141212_78368 ./on_hold.sh Drootprod_20141212_78368
+JOB Drootprod_20141213_20341 ./submit_root/2014/npx4-submit/rootprod_20141213_20341.condor
+Retry Drootprod_20141213_20341 1
+SCRIPT HOLD Drootprod_20141213_20341 ./on_hold.sh Drootprod_20141213_20341
+JOB Drootprod_20141214_66921 ./submit_root/2014/npx4-submit/rootprod_20141214_66921.condor
+Retry Drootprod_20141214_66921 1
+SCRIPT HOLD Drootprod_20141214_66921 ./on_hold.sh Drootprod_20141214_66921
+JOB Drootprod_20141215_3420 ./submit_root/2014/npx4-submit/rootprod_20141215_3420.condor
+Retry Drootprod_20141215_3420 1
+SCRIPT HOLD Drootprod_20141215_3420 ./on_hold.sh Drootprod_20141215_3420
+JOB Drootprod_20141216_38550 ./submit_root/2014/npx4-submit/rootprod_20141216_38550.condor
+Retry Drootprod_20141216_38550 1
+SCRIPT HOLD Drootprod_20141216_38550 ./on_hold.sh Drootprod_20141216_38550
+JOB Drootprod_20141217_69875 ./submit_root/2014/npx4-submit/rootprod_20141217_69875.condor
+Retry Drootprod_20141217_69875 1
+SCRIPT HOLD Drootprod_20141217_69875 ./on_hold.sh Drootprod_20141217_69875
+JOB Drootprod_20141218_96199 ./submit_root/2014/npx4-submit/rootprod_20141218_96199.condor
+Retry Drootprod_20141218_96199 1
+SCRIPT HOLD Drootprod_20141218_96199 ./on_hold.sh Drootprod_20141218_96199
+JOB Drootprod_20141219_83208 ./submit_root/2014/npx4-submit/rootprod_20141219_83208.condor
+Retry Drootprod_20141219_83208 1
+SCRIPT HOLD Drootprod_20141219_83208 ./on_hold.sh Drootprod_20141219_83208
+JOB Drootprod_20141220_19277 ./submit_root/2014/npx4-submit/rootprod_20141220_19277.condor
+Retry Drootprod_20141220_19277 1
+SCRIPT HOLD Drootprod_20141220_19277 ./on_hold.sh Drootprod_20141220_19277
+JOB Drootprod_20141221_10288 ./submit_root/2014/npx4-submit/rootprod_20141221_10288.condor
+Retry Drootprod_20141221_10288 1
+SCRIPT HOLD Drootprod_20141221_10288 ./on_hold.sh Drootprod_20141221_10288
+JOB Drootprod_20141222_26517 ./submit_root/2014/npx4-submit/rootprod_20141222_26517.condor
+Retry Drootprod_20141222_26517 1
+SCRIPT HOLD Drootprod_20141222_26517 ./on_hold.sh Drootprod_20141222_26517
+JOB Drootprod_20141223_82315 ./submit_root/2014/npx4-submit/rootprod_20141223_82315.condor
+Retry Drootprod_20141223_82315 1
+SCRIPT HOLD Drootprod_20141223_82315 ./on_hold.sh Drootprod_20141223_82315
+JOB Drootprod_20141224_86335 ./submit_root/2014/npx4-submit/rootprod_20141224_86335.condor
+Retry Drootprod_20141224_86335 1
+SCRIPT HOLD Drootprod_20141224_86335 ./on_hold.sh Drootprod_20141224_86335
+JOB Drootprod_20141225_4813 ./submit_root/2014/npx4-submit/rootprod_20141225_4813.condor
+Retry Drootprod_20141225_4813 1
+SCRIPT HOLD Drootprod_20141225_4813 ./on_hold.sh Drootprod_20141225_4813
+JOB Drootprod_20141226_9589 ./submit_root/2014/npx4-submit/rootprod_20141226_9589.condor
+Retry Drootprod_20141226_9589 1
+SCRIPT HOLD Drootprod_20141226_9589 ./on_hold.sh Drootprod_20141226_9589
+JOB Drootprod_20141227_89660 ./submit_root/2014/npx4-submit/rootprod_20141227_89660.condor
+Retry Drootprod_20141227_89660 1
+SCRIPT HOLD Drootprod_20141227_89660 ./on_hold.sh Drootprod_20141227_89660
+JOB Drootprod_20141228_39456 ./submit_root/2014/npx4-submit/rootprod_20141228_39456.condor
+Retry Drootprod_20141228_39456 1
+SCRIPT HOLD Drootprod_20141228_39456 ./on_hold.sh Drootprod_20141228_39456
+JOB Drootprod_20141229_40020 ./submit_root/2014/npx4-submit/rootprod_20141229_40020.condor
+Retry Drootprod_20141229_40020 1
+SCRIPT HOLD Drootprod_20141229_40020 ./on_hold.sh Drootprod_20141229_40020
+JOB Drootprod_20141230_20541 ./submit_root/2014/npx4-submit/rootprod_20141230_20541.condor
+Retry Drootprod_20141230_20541 1
+SCRIPT HOLD Drootprod_20141230_20541 ./on_hold.sh Drootprod_20141230_20541
+JOB Drootprod_20141231_33137 ./submit_root/2014/npx4-submit/rootprod_20141231_33137.condor
+Retry Drootprod_20141231_33137 1
+SCRIPT HOLD Drootprod_20141231_33137 ./on_hold.sh Drootprod_20141231_33137

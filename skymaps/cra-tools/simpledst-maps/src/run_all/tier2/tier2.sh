@@ -5,7 +5,7 @@ function run_makemaps {
     options=$2
 
     # Run the script to produce the dag files.
-    command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/outpute/sidereal/tier2 $options"
+    command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/@USER_DIR@/tier2 $options"
     $command
 
     # Submit the dag file for each year to conodr. This will create 360 fits files for each day in this tier.

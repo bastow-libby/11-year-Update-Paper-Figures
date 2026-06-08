@@ -58,42 +58,45 @@ Each project has a CMakeList.txt that will detect dependencies and generate a Ma
 
 ## Instructions
 **Step 1. Build the Project with CMake**:
-cd ~/cra-tools-gb-edits/simpledst-maps
+Run cvmfs (make sure you run the same version you will hardcode into the scripts make-local-maps-IT.py.in and merge-reco.py.in, as of June 2026, that version is 4.3.0)
+cd 11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps
 mkdir build
 cd build
 cmake ../src
 make
 
 **Step 2. Edit Code for the User**:
-Navigate to cra-tools-gb-edits/simpledst-maps/src/scripts. We will edit 2 scripts here.
+Navigate to 11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/src/scripts. We will edit 2 scripts here.
 
 The first is make-local-maps-IT.py.in. This makes the local maps. Edit these lines:
 
-On line 18, edit the fpath to the user directory where you have stored the burnsample root files.
-   fpath = '/data/.../burnsamplemaps'
-On line 63, edit the output directory to where you want the output directory to be:
+On line 19, edit the fpath to the user directory where you have stored the burnsample/full dataset root files.
+   fpath = '/data/.../root'
+On line 65, edit the output directory to where you want the output directory to be (recommend /data/user/@USER_DIR@/... for burnsample, /data/ana/... for the full dataset):
    default='/data/.../OUTPUT\_DIRECTORY'
-On line 75, edit the line to:
-    default='/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1',
-On line 78, edit the submit directory to the path where your submit directory is:
-    default='/home/@USER_DIR@/cra-tools-gb-edits/simpledst-maps/src/submit'
-On line 216, update the cmd line to the location of your 'make-local-maps' file:
-    cmd='/home/@USER_DIR@/cra-tools-gb-edits/simpledst-maps/build/bin/make-local-maps'
+On line 77, edit the line to the version of cvmfs used in cmake:
+    default='/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0',
+On line 81, edit the submit directory to the path where your submit directory is:
+    default='/home/@USER_DIR@/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/src/submit'
+On line 223, update the cmd line to the location of your 'make-local-maps' file:
+    cmd='/home/@USER_DIR@/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/build/bin/make-local-maps'
+
 The second is merge-reco.py.in. This script combines the local maps and uses the iteration method to estimate relative intensity and significance. Edit these lines:
 
 On line 61, update the line to your output directory:
    default='/data/.../OUTPUT\_DIRECTORY',
-On line 73, update the line to:
-   default='/cvmfs/icecube.opensciencegrid.org/py3-v4.2.1',
+On line 73, update the line to the version of cvmfs used in cmake:
+   default='/cvmfs/icecube.opensciencegrid.org/py3-v4.3.0',
 On line 76, update the line to the path to your submit directory:
-   default='/home/USERNAME/cra-tools-gb-edits/simpledst-maps/src/submit',
-On line 212, update the line to the location of your 'combine-local-maps' folder:
-   cmd  = '/home/USERNAME/cra-tools-gb-edits/simpledst-maps/build/bin/combine-local-maps'
-On line 224, update the line to:
-   cmd  = '/home/USERNAME/cra-tools-gb-edits/simpledst-maps/build/bin/illh-reco'
+   default='/home/@USER_DIR@/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/src/submit',
+On line 214, update the line to the location of your 'combine-local-maps' folder:
+   cmd  = '/home/@USER_DIR@/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/build/bin/combine-local-maps'
 On line 226, update the line to:
-   '--cfg','/home/USERNAME/cra-tools-gb-edits/simpledst-maps/build/resources/{detector}.json'.format(\*\*s\_opts),
-We also have to edit cra-tools-gb-edits/simpledst-maps/src/private/SimpleDST.cc depending on which energy tier we intend to process:
+   cmd  = '/home/@USER_DIR@/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/build/bin/illh-reco'
+On line 228, update the line to:
+   '--cfg','/home/@USER_DIR@/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/build/resources/{detector}.json'.format(\*\*s\_opts),
+
+We also have to edit 11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/src/private/SimpleDST.cc depending on which energy tier we intend to process:
 
 For Tier 1, comment out line 39 and uncomment line 40, so it reads
     reco = "ShowerPlane";
@@ -102,34 +105,59 @@ For Tiers 2, 3 or 4, uncomment out line 39, and comment line 40, so it reads
 
 **Step 3. Rebuild the Project**
 If you have edited a .cc file, remake the project as follows:
-cd ~/cra-tools-gb-edits/simpledst-maps
+run cvmfs (use the same version used in all previous steps)
+cd 11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps
 cd build
 cmake ../src
 make
 
 **Step 4. Edit Shell Scripts**:
-Edit line 8 in tier\*.sh in each tier directory. Edit the output directory to your desired path. There must be a unique output directory for each tier.
+For Tiers 1-4, edit line 8 in tier\*.sh in each tier directory. Edit the output directory to your desired path. There must be a unique output directory for each tier.
  command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/../OUTPUT\_DIRECTORY/tier\* $options"
 
-**Step 5. Run the Code**:
-Navigate to cra-tools-gb-edits/simpledst-maps/src/run\_all. Make sure that the output directory is empty of any existing folders, as the code does not overwrite any existing files, and instead skips them.
+For No Tier Cuts, edit line 8 in nocuts.sh in the nocuts directory. Edit the output directory to your desired path. There must be a unique output directory for each tier.
+ command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/../OUTPUT\_DIRECTORY/nocuts --ebins $options"
 
-  cd tier1
-  chmod +x tier1.sh
-  ./tier1.sh
+**Step 5. Run the Code**:
+Navigate to 11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/src/run_all (or run_burnsample, for burnsample data). Make sure that the output directory is empty of any existing folders (delete all submit_20## files from previous runs), as the code does not overwrite any existing files, and instead skips them. Make sure you and in cobalt and have run cvmfs before running this script.
+
+For tiers 1-4:
+
+  cd tier#
+  chmod +x tier#.sh
+  ./tier#.sh
+
+For nocuts:
+
+  cd nocuts
+  chmod +x nocuts.sh
+  ./nocuts.sh
 
 **Step 6. Iteration Method**:
 *Note: this step may only be started once all files from the previous steps are done running and each directory has 360 files*
 
-Combine fits files for each degree. The combine-local-maps.py.in script combines all the local fits files for each degree, producing 360 output files in a directory called 'combined'. These files are produced as described in the previous linked instructions, EXCEPT that the --reco flag is removed, so the following command is run in run\_burnsample/tierX:
-python ../../scripts/merge-reco.py.in -c ITpass2 -o /data/../OUTPUT\_DIRECTORY/tier1 --submit\_dir ./submit
+Combine fits files for each degree. The combine-local-maps.py.in script combines all the local fits files for each degree, producing 360 output files in a directory called 'combined'. These files are produced as described in the previous linked instructions, EXCEPT that the --reco flag is removed. Make sure you are in condor and have run cvmfs, then run the  following command is run in run_all/tier# or run_burnsample/tier#:
+
+python ../../scripts/merge-reco.py.in -c ITpass2 -o /data/../OUTPUT\_DIRECTORY/tier# --submit_dir ./submit
+
+The above line of code can take more than an hour to submit to condor, to run it in the background (so it continues to run if your computer turns off, e.g.), run 
+
+nohup [command above] &
 
 **Step 7. Reconstruction**:
 *Note: this step may only be started once all the files from the previous step are done running and the combined directory has 360 files*
 
 Enter Cobalt and run cvmfs 4.3.0
 
-cd cra-ahlers-llh-main/build/configs
+cd 11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/configs
 
-Then run: ./bin/multi-llh --config ./configs/it\_t\*\_unblinded.json  -o /data/@USER\_DIR@/@TIER@/ITpass2/reco --iterations 20 --save-iter --smoothing-radius 20
+A .json config file must be created for each tier being reconstructed. You can copy the format needed by copying icecube.json from 11-year-Update-Paper-Figures/skymaps/cra-ahlers/build/examples into the config folder. For each copied .json file, make sure that thetamax is set to 55.0:
+
+"thetamax": 55.0,
+
+And "prefix" is changed to the output directory of your combined files:
+
+"prefix": "/data/user/@USER_DIR@/@TIER@/ITpass2/combined/CR_ICECUBE_LOCAL_NSIDE64_degbin-",
+
+Then run the following for each tier: ./bin/multi-llh --config ./configs/CONFIG_NAME.json  -o /data/@USER_DIR@/@TIER@/ITpass2/reco --iterations 20 --save-iter --smoothing-radius 20
 

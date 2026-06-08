@@ -1,0 +1,67 @@
+000 (19534422.000.000) 2026-06-02 15:52:23 Job submitted from host: <10.128.10.103:9618?addrs=10.128.10.103-9618&alias=npx-submitter.icecube.wisc.edu&noUDP&sock=schedd_2449_6386>
+    DAG Node: Drootprod_20111127_39177
+...
+001 (19534422.000.000) 2026-06-02 16:34:09 Job executing on host: <10.128.10.115:33587?addrs=10.128.10.115-33587&alias=n-gibyte-00.icecube.wisc.edu>
+	SlotName: slot1_198@n-gibyte-00.icecube.wisc.edu
+	admin_mutex_1 = 0
+	admin_mutex_2 = 0
+	admin_mutex_3 = 0
+	CondorScratchDir = "/scratch/condor/dir_2182307"
+	Cpus = 1
+	Disk = 5480
+	GPUs = 0
+	machine_token = 0
+	Memory = 6016
+...
+006 (19534422.000.000) 2026-06-02 16:34:22 Image size of job updated: 117920
+	116  -  MemoryUsage of job (MB)
+	117920  -  ResidentSetSize of job (KB)
+...
+006 (19534422.000.000) 2026-06-02 16:39:22 Image size of job updated: 141844
+	139  -  MemoryUsage of job (MB)
+	141844  -  ResidentSetSize of job (KB)
+...
+006 (19534422.000.000) 2026-06-02 16:44:23 Image size of job updated: 159368
+	156  -  MemoryUsage of job (MB)
+	159368  -  ResidentSetSize of job (KB)
+...
+006 (19534422.000.000) 2026-06-02 16:49:23 Image size of job updated: 273628
+	268  -  MemoryUsage of job (MB)
+	273628  -  ResidentSetSize of job (KB)
+...
+006 (19534422.000.000) 2026-06-02 16:54:24 Image size of job updated: 405148
+	396  -  MemoryUsage of job (MB)
+	405148  -  ResidentSetSize of job (KB)
+...
+006 (19534422.000.000) 2026-06-02 16:59:24 Image size of job updated: 421620
+	412  -  MemoryUsage of job (MB)
+	421620  -  ResidentSetSize of job (KB)
+...
+006 (19534422.000.000) 2026-06-02 17:03:58 Image size of job updated: 731948
+	412  -  MemoryUsage of job (MB)
+	421620  -  ResidentSetSize of job (KB)
+...
+005 (19534422.000.000) 2026-06-02 17:03:58 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:28:28, Sys 0 00:00:18  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:28:28, Sys 0 00:00:18  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :     0.95        1         1 
+	   Disk (KB)             :     7        2048      5480 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :   412        6000      6016 
+	   TimeExecute (s)       :  1789                       
+	   TimeSlotBusy (s)      :  1790                       
+
+	Job terminated of its own accord at 2026-06-02T22:03:58Z with exit-code 0.
+...

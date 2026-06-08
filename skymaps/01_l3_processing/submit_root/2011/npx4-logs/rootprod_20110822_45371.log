@@ -1,0 +1,83 @@
+000 (19532986.000.000) 2026-06-02 15:49:20 Job submitted from host: <10.128.10.103:9618?addrs=10.128.10.103-9618&alias=npx-submitter.icecube.wisc.edu&noUDP&sock=schedd_2449_6386>
+    DAG Node: Drootprod_20110822_45371
+...
+001 (19532986.000.000) 2026-06-02 15:58:47 Job executing on host: <10.128.10.117:43719?addrs=10.128.10.117-43719&alias=n-gibyte-02.icecube.wisc.edu>
+	SlotName: slot1_182@n-gibyte-02.icecube.wisc.edu
+	admin_mutex_1 = 0
+	admin_mutex_2 = 0
+	admin_mutex_3 = 0
+	CondorScratchDir = "/scratch/condor/dir_3333648"
+	Cpus = 1
+	Disk = 5480
+	GPUs = 0
+	machine_token = 0
+	Memory = 6016
+...
+006 (19532986.000.000) 2026-06-02 15:59:01 Image size of job updated: 117776
+	116  -  MemoryUsage of job (MB)
+	117776  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:04:01 Image size of job updated: 141344
+	139  -  MemoryUsage of job (MB)
+	141344  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:09:02 Image size of job updated: 161880
+	159  -  MemoryUsage of job (MB)
+	161880  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:14:02 Image size of job updated: 276156
+	270  -  MemoryUsage of job (MB)
+	276156  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:19:03 Image size of job updated: 407136
+	398  -  MemoryUsage of job (MB)
+	407136  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:24:03 Image size of job updated: 565236
+	552  -  MemoryUsage of job (MB)
+	565236  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:29:04 Image size of job updated: 733160
+	716  -  MemoryUsage of job (MB)
+	733160  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:34:04 Image size of job updated: 758428
+	741  -  MemoryUsage of job (MB)
+	758428  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:39:05 Image size of job updated: 792404
+	774  -  MemoryUsage of job (MB)
+	792404  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:44:05 Image size of job updated: 872712
+	853  -  MemoryUsage of job (MB)
+	872712  -  ResidentSetSize of job (KB)
+...
+006 (19532986.000.000) 2026-06-02 16:47:28 Image size of job updated: 891236
+	853  -  MemoryUsage of job (MB)
+	872712  -  ResidentSetSize of job (KB)
+...
+005 (19532986.000.000) 2026-06-02 16:47:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:46:34, Sys 0 00:00:30  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:46:34, Sys 0 00:00:30  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   admin_mutex_1         :                           0 
+	   admin_mutex_2         :                           0 
+	   admin_mutex_3         :                           0 
+	   Cpus                  :     0.98        1         1 
+	   Disk (KB)             :    10        2048      5480 
+	   GPUs                  :                           0 
+	   machine_token         :                           0 
+	   Memory (MB)           :   853        6000      6016 
+	   TimeExecute (s)       :  2921                       
+	   TimeSlotBusy (s)      :  2921                       
+
+	Job terminated of its own accord at 2026-06-02T21:47:28Z with exit-code 0.
+...
