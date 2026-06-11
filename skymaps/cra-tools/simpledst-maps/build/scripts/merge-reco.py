@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
     # Additional options
     p.add_argument('-o', '--outdir', dest='outdir',
-            default='[OUTPUT DIR]',
+            default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/sidereal_burn',
             help='Destination directory for output files')
     p.add_argument('-i', '--indir', dest='indir',
             default=None,
@@ -225,7 +225,7 @@ if __name__ == "__main__":
         reco_prefix = infile_prefix.format(**s_opts)
         cmd  = '/home/amcclure/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/build/bin/illh-reco'
         ex  = [cmd,
-            '--cfg','/home/amcclure/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/build/resources/{detector}.json'.format(**s_opts),
+                '--cfg','/home/amcclure/11-year-Update-Paper-Figures/skymaps/cra-tools/simpledst-maps/build/resources/{detector}.json'.format(**s_opts),
             '--prefix','{}/combined/{}'.format(outBase,reco_prefix),
             '--suffix','.fits.gz',
             '--outdir','{}/reco'.format(outBase),

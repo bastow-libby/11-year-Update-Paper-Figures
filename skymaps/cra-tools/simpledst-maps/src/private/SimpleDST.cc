@@ -37,7 +37,7 @@ SimpleDST::SetupChain(TChain* chain, std::string config)
       // EDIT TO APPROPRIATE RECONSTRUCTION
       //reco = "LaputopSmall";
        reco = "Laputop";
-      //reco = "ShowerPlane";
+     // reco = "ShowerPlane";
 
     std::string recoazstr(reco + ".azimuth");
     std::string recozstr(reco + ".zenith");

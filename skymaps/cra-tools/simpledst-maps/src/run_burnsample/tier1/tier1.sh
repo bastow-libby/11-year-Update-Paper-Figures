@@ -5,7 +5,7 @@ function run_makemaps {
     options=$2
 
     # Run the command to produce the dag scripts.
-     command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/user/@USER_DIR@/tier1 $options"
+     command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/user/@USER@/.../tier1 $options"
      $command
     # Submit the dag files for each year to condor. This will produce 360 fits files for each day in this tier.
     commandtwo="condor_submit_dag ./submit_$year/ITpass2.make-local-maps.dag"

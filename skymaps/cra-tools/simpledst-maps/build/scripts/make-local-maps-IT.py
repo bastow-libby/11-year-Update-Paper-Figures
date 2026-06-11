@@ -16,7 +16,7 @@ the word 'CHANGE'.
 def getDSTfiles(config):
 
     # CHANGE
-    fpath = '/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/root'
+    fpath = '/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/burnsample_root'
     
     fileList = glob.glob('{}/*.root'.format(fpath))
     # Newer years have part files nested in daily folders
@@ -61,8 +61,8 @@ if __name__ == "__main__":
 
     # Additional options
     p.add_argument('-o', '--outdir', dest='outdir',
-            # CHANGE: suggested path: /data/user/amcclure/tier_X for each tier
-            default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/sidereal_unblinded',
+            # CHANGE: suggested path: /data/user//tier_X for each tier
+            default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/sidereal_burn',
             help='Destination directory for output files')
     p.add_argument('--test', dest='test',
             default=False, action='store_true',

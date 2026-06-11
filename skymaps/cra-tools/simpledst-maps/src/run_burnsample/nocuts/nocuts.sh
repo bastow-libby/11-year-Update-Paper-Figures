@@ -5,7 +5,7 @@ function run_makemaps {
     options=$2
 
     # Run the script to produce the dag files.
-    command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/user/@USER_DIR@/nocuts --ebins $options"
+    command="python ../../scripts/make-local-maps-IT.py.in -c ITpass2 -o /data/user/@USER@/.../nocuts $options"
     $command
 
     # Submit the dag file for each year to condor. This will produce 360 fits files for each day in the tier.

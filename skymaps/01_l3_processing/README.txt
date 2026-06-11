@@ -14,5 +14,14 @@ Change [OUTDIR] to the address in \data\user\@USER_DIR@ where you want your root
 
 Wait until the job is done by checking the condor queue (condor_q) before moving on to the next step
 
+To check if any errors were produced in this process:
 
+Navigate to 11-year-Update-Paper-Figures/skymaps/01_l3_processing/error_check_root.py. Edit the error_dir path in line 7 to  your user directory.
+ error_dir = Path('/home/@USER_DIR@/11-year-Update-Paper-Figures/skymaps')
+
+Run this script in terminal using the command:
+ python error_check_root.py
+
+This script will print the the error files and their contents that have thrown errors. If no errors occurred, nothing will be printed. 
+ 
  
