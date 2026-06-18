@@ -4,185 +4,186 @@ Begin in the simulations or skymaps directories and follow the instructions in t
 
 To produce the figures or tables from already existing data, enter the figure directories and run the code there without changing the input directories. 
 
-This directory uses python 4.2.1 and the following packages: alabaster           0.7.13
-anyio             3.6.2
-argon2-cffi          21.3.0
-argon2-cffi-bindings     21.2.0
-arrow             1.2.3
-astropy            5.2.2
-asttokens           2.2.1
-attrs             23.1.0
-Babel             2.12.1
-backcall           0.2.0
-beautifulsoup4        4.12.2
-beniget            0.4.1
-bleach            6.0.0
-blosc2            2.0.0
-build             0.10.0
-calver            2022.6.26
-certifi            2023.5.7
-cffi             1.15.1
-charset-normalizer      3.1.0
-click             8.1.3
-cloudpickle          2.2.1
-colorama           0.4.6
-colorlog           6.7.0
-comm             0.1.3
-contourpy           1.0.7
-cryptography         40.0.2
-cycler            0.11.0
-Cython            0.29.34
-dask             2023.5.0
-debugpy            1.6.7
-decorator           5.1.1
-defusedxml          0.7.1
-distlib            0.3.6
-dnspython           2.3.0
-docutils           0.20.1
-easydev            0.12.1
-editables           0.3
-executing           1.2.0
-fastjsonschema        2.16.3
-filelock           3.12.0
-flit_core           3.7.1
-fonttools           4.39.4
-fqdn             1.5.1
-fsspec            2023.5.0
-gast             0.5.3
-h5py             3.8.0
-hatch-vcs           0.3.0
-hatchling           1.14.0
-healpy            1.16.2
-htcondor           10.3.0
-idna             3.4
-imageio            2.28.1
-imagesize           1.4.1
-iminuit            2.21.3
-importlib-metadata      6.6.0
-ipykernel           6.23.1
-ipython            8.13.2
-ipython-genutils       0.2.0
-ipywidgets          8.0.6
-isoduration          20.11.0
-jedi             0.18.2
-Jinja2            3.1.2
-jplephem           2.18
-jsonpointer          2.3
-jsonschema          4.17.3
-jupyter            1.0.0
-jupyter_client        8.2.0
-jupyter-console        6.6.3
-jupyter_core         5.3.0
-jupyter-events        0.6.3
-jupyter_server        2.5.0
-jupyter_server_terminals   0.4.4
-jupyterlab-pygments      0.2.2
-jupyterlab-widgets      3.0.7
-kiwisolver          1.4.4
-lazy_loader          0.2
-LHAPDF            6.5.1
-locket            1.0.0
-MarkupSafe          2.1.2
-matplotlib          3.7.1
-matplotlib-inline       0.1.6
-meson             0.64.1
-meson-python         0.12.0
-mistune            2.0.5
-mongo             0.2.0
-msgpack            1.0.5
-nbclassic           1.0.0
-nbclient           0.7.4
-nbconvert           7.4.0
-nbformat           5.8.0
-nest-asyncio         1.5.6
-networkx           3.1
-notebook           6.5.4
-notebook_shim         0.2.3
-numexpr            2.8.4
-numpy             1.24.3
-packaging           21.3
-pandas            2.0.1
-pandocfilters         1.5.0
-parso             0.8.3
-partd             1.4.0
-pathspec           0.11.1
-pexpect            4.8.0
-pickleshare          0.7.5
-Pillow            9.5.0
-pip              23.0
-platformdirs         3.5.0
-pluggy            1.0.0
-ply              3.11
-prometheus-client       0.16.0
-prompt-toolkit        3.0.38
-psutil            5.9.5
-ptyprocess          0.7.0
-pure-eval           0.2.2
-py-cpuinfo          9.0.0
-pybind11           2.10.1
-pycparser           2.21
-pyerfa            2.0.0.3
-pyFFTW            0.13.1
-Pygments           2.15.1
-pymongo            4.3.3
-PyMySQL            1.0.3
-pyOpenSSL           23.1.1
-pyparsing           3.0.9
-pypdf             6.9.1
-pyproject_hooks        1.0.0
-pyproject-metadata      0.7.1
-pyrsistent          0.19.3
-python-dateutil        2.8.2
-python-json-logger      2.0.7
-pythran            0.12.2
-pytz             2023.3
-PyWavelets          1.4.1
-PyYAML            6.0
-pyzmq             25.0.2
-qtconsole           5.4.3
-QtPy             2.3.1
-requests           2.30.0
-rfc3339-validator       0.1.4
-rfc3986-validator       0.1.1
-scikit-image         0.20.0
-scipy             1.10.1
-semanticversion        0.1.7
-Send2Trash          1.8.2
-setuptools          59.8.0
-setuptools-scm        7.1.0
-six              1.16.0
-sniffio            1.3.0
-snowballstemmer        2.2.0
-sortedcontainers       2.4.0
-soupsieve           2.4.1
-spectrum           0.8.1
-Sphinx            7.0.1
-sphinxcontrib-applehelp    1.0.4
-sphinxcontrib-devhelp     1.0.2
-sphinxcontrib-htmlhelp    2.0.1
-sphinxcontrib-jsmath     1.0.1
-sphinxcontrib-qthelp     1.0.3
-sphinxcontrib-serializinghtml 1.1.5
-stack-data          0.6.2
-tables            3.8.0
-terminado           0.17.1
-tifffile           2023.4.12
-tinycss2           1.2.1
-tomli             2.0.1
-toolz             0.12.0
-tornado            6.3.2
-traitlets           5.9.0
-trove-classifiers       2023.3.9
-typing_extensions       4.5.0
-tzdata            2023.3
-uri-template         1.2.0
-urllib3            2.0.2
-urwid             2.1.2
-virtualenv          20.22.0
-wcwidth            0.2.6
-webcolors           1.13
-webencodings         0.5.1
-websocket-client       1.5.1
-wheel             0.37.1
-widgetsnbextension      4.0.7
-zipp
+This directory uses python 4.2.1 and the following packages: 
+- alabaster 0.7.13
+- anyio 3.6.2
+- argon2-cffi 21.3.0
+- argon2-cffi-bindings 21.2.0
+- arrow 1.2.3
+- astropy 5.2.2
+- asttokens 2.2.1
+- attrs 23.1.0
+- Babel 2.12.1
+- backcall 0.2.0
+- beautifulsoup4 4.12.2
+- beniget 0.4.1
+- bleach 6.0.0
+- blosc2 2.0.0
+- build 0.10.0
+- calver 2022.6.26
+- certifi 2023.5.7
+- cffi 1.15.1
+- charset-normalizer 3.1.0
+- click 8.1.3
+- cloudpickle 2.2.1
+- colorama 0.4.6
+- colorlog 6.7.0
+- comm 0.1.3
+- contourpy 1.0.7
+- cryptography 40.0.2
+- cycler 0.11.0
+- Cython 0.29.34
+- dask 2023.5.0
+- debugpy 1.6.7
+- decorator 5.1.1
+- defusedxml 0.7.1
+- distlib 0.3.6
+- dnspython 2.3.0
+- docutils 0.20.1
+- easydev 0.12.1
+- editables 0.3
+- executing 1.2.0
+- fastjsonschema 2.16.3
+- filelock 3.12.0
+- flit_core 3.7.1
+- fonttools 4.39.4
+- fqdn 1.5.1
+- fsspec 2023.5.0
+- gast 0.5.3
+- h5py 3.8.0
+- hatch-vcs 0.3.0
+- hatchling 1.14.0
+- healpy 1.16.2
+- htcondor 10.3.0
+- idna 3.4
+- imageio 2.28.1
+- imagesize 1.4.1
+- iminuit 2.21.3
+- importlib-metadata 6.6.0
+- ipykernel 6.23.1
+- ipython 8.13.2
+- ipython-genutils 0.2.0
+- ipywidgets 8.0.6
+- isoduration 20.11.0
+- jedi 0.18.2
+- Jinja2 3.1.2
+- jplephem 2.18
+- jsonpointer 2.3
+- jsonschema 4.17.3
+- jupyter 1.0.0
+- jupyter_client 8.2.0
+- jupyter-console 6.6.3
+- jupyter_core 5.3.0
+- jupyter-events 0.6.3
+- jupyter_server 2.5.0
+- jupyter_server_terminals 0.4.4
+- jupyterlab-pygments 0.2.2
+- jupyterlab-widgets 3.0.7
+- kiwisolver 1.4.4
+- lazy_loader 0.2
+- LHAPDF 6.5.1
+- locket 1.0.0
+- MarkupSafe 2.1.2
+- matplotlib 3.7.1
+- matplotlib-inline 0.1.6
+- meson 0.64.1
+- meson-python 0.12.0
+- mistune 2.0.5
+- mongo 0.2.0
+- msgpack 1.0.5
+- nbclassic 1.0.0
+- nbclient 0.7.4
+- nbconvert 7.4.0
+- nbformat 5.8.0
+- nest-asyncio 1.5.6
+- networkx 3.1
+- notebook 6.5.4
+- notebook_shim 0.2.3
+- numexpr 2.8.4
+- numpy 1.24.3
+- packaging 21.3
+- pandas 2.0.1
+- pandocfilters 1.5.0
+- parso 0.8.3
+- partd 1.4.0
+- pathspec 0.11.1
+- pexpect 4.8.0
+- pickleshare 0.7.5
+- Pillow 9.5.0
+- pip 23.0
+- platformdirs 3.5.0
+- pluggy 1.0.0
+- ply 3.11
+- prometheus-client 0.16.0
+- prompt-toolkit 3.0.38
+- psutil 5.9.5
+- ptyprocess 0.7.0
+- pure-eval 0.2.2
+- py-cpuinfo 9.0.0
+- pybind11 2.10.1
+- pycparser 2.21
+- pyerfa 2.0.0.3
+- pyFFTW 0.13.1
+- Pygments 2.15.1
+- pymongo 4.3.3
+- PyMySQL 1.0.3
+- pyOpenSSL 23.1.1
+- pyparsing 3.0.9
+- pypdf 6.9.1
+- pyproject_hooks 1.0.0
+- pyproject-metadata 0.7.1
+- pyrsistent 0.19.3
+- python-dateutil 2.8.2
+- python-json-logger 2.0.7
+- pythran 0.12.2
+- pytz 2023.3
+- PyWavelets 1.4.1
+- PyYAML 6.0
+- pyzmq 25.0.2
+- qtconsole 5.4.3
+- QtPy 2.3.1
+- requests 2.30.0
+- rfc3339-validator 0.1.4
+- rfc3986-validator 0.1.1
+- scikit-image 0.20.0
+- scipy 1.10.1
+- semanticversion 0.1.7
+- Send2Trash 1.8.2
+- setuptools 59.8.0
+- setuptools-scm 7.1.0
+- six 1.16.0
+- sniffio 1.3.0
+- snowballstemmer 2.2.0
+- sortedcontainers 2.4.0
+- soupsieve 2.4.1
+- spectrum 0.8.1
+- Sphinx 7.0.1
+- sphinxcontrib-applehelp 1.0.4
+- sphinxcontrib-devhelp 1.0.2
+- sphinxcontrib-htmlhelp 2.0.1
+- sphinxcontrib-jsmath 1.0.1
+- sphinxcontrib-qthelp 1.0.3
+- sphinxcontrib-serializinghtml 1.1.5
+- stack-data 0.6.2
+- tables 3.8.0
+- terminado 0.17.1
+- tifffile 2023.4.12
+- tinycss2 1.2.1
+- tomli 2.0.1
+- toolz 0.12.0
+- tornado 6.3.2
+- traitlets 5.9.0
+- trove-classifiers 2023.3.9
+- typing_extensions 4.5.0
+- tzdata 2023.3
+- uri-template 1.2.0
+- urllib3 2.0.2
+- urwid 2.1.2
+- virtualenv 20.22.0
+- wcwidth 0.2.6
+- webcolors 1.13
+- webencodings 0.5.1
+- websocket-client 1.5.1
+- wheel 0.37.1
+- widgetsnbextension 4.0.7
+- zipp
