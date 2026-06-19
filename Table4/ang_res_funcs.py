@@ -595,7 +595,7 @@ def dist_sim_data_all_tiers(data_list, reco_list, param, bin_ends, titles, logsc
         #ax_array[row, col].set_ylim(0, .1)
     
         ax_array[row, col].set_title('Tier {}'.format(title[0]), fontsize=20)
-        ax_array[row, col].set_xlabel(param + ' angle' + '$[\degree]$', fontsize=20)
+        ax_array[row, col].set_xlabel(param + ' angle' + r'$[\degree]$', fontsize=20)
         ax_array[row, col].legend(loc='lower center', fontsize=15)
     
         col = col + 1
@@ -636,7 +636,7 @@ def ratio_sim_data_all_tiers(data_list, reco_list, param, bin_ends, titles, logs
         else:
             ax_array[row, col].set_ylim(0, 2)
         ax_array[row, col].set_title('Tier {}'.format(title[0]), fontsize=20)
-        ax_array[row, col].set_xlabel(param + ' angle' + '$[\degree]$', fontsize=20)
+        ax_array[row, col].set_xlabel(param + ' angle' + r'$[\degree]$', fontsize=20)
         ax_array[row, col].set_ylabel('Ratio', fontsize=20)
         ax_array[row, col].errorbar(bin_centres, ((y_reco/sum(y_reco))/(y_data/sum(y_data))), yerr=.1, label='Ratio', capsize=3)
         ax_array[row, col].legend(loc='lower center', fontsize=20)

@@ -16,6 +16,10 @@ if __name__ == "__main__":
 
         for year in years:
 
+            # Tiers 1 and 2 are not produced for 2015+
+            if (tier <= 2) and (year >= 2015):
+                continue
+
             # Check to see if output file already exists
             out_file = out_base / f'tier{tier}_{year}.txt'
             if out_file.is_file():
