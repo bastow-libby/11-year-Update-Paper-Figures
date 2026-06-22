@@ -3,7 +3,7 @@
 
 import argparse
 import subprocess
-import glob
+from glob import glob
 from pathlib import Path
 
 current = Path.cwd()
@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # File paths (Update for your use)
     p.add_argument( '-f', '--inFile', dest='inFiles',
-                default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/outpute/finalcombinedfits',
+                default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/sidereal_unblinded',
                 help = 'The input file path. The default is set in a way to select tier. Please ask someone for data path if not found.')
     p.add_argument('-t', '--tier', dest='tier',
                    default = '1',
@@ -61,17 +61,17 @@ if __name__ == "__main__":
 
     # find the final iteration for our tier
 
-    file_list = sorted(glob.glob(f'{args.inFiles}/t{args.tier}/CR_IceTop__64_360_iteration*'))
-    f = file_list[-1]
+    file_list = glob(f'{args.inFiles}/tier{args.tier}/reconstruction/relintensityiter/combined*.fits.gz')
+    f = sorted(file_list)[-1]
 
     # Make isotropic error bands
     cmd = f'{current}/scripts/isoErr.py'
-    a = f'{cmd} -f {f} -s {args.smooth} -o {args.out}/T{args.tier}/t{args.tier}iso' 
-    
+    a = f'{cmd} -f {f} -s {args.smooth} -o {args.out}/T{args.tier}/t{args.tier}iso'
+
     if args.iso:
         subprocess.Popen(a.split(' '))
         print('making isotropic noise bands')
-    
+
     # Make systematic error bars
     cmd = f'{current}/scripts/sysErr.py'
     a = f'{cmd} -f {f} -n {args.n} -s {args.smooth} -o {args.out}/T{args.tier}/t{args.tier}sys'
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     if args.sys:
         subprocess.Popen(a.split(' '))
         print('making systematic error bars')
-    
+
     # Make statistical error bars
     cmd = f'{current}/scripts/statErr.py'
     a = f'{cmd} -f {f} -n {args.n} -s {args.smooth} -o {args.out}/T{args.tier}/t{args.tier}stat'
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     # Code to make Angular Power Spectrum
     if args.make:
         cmd = f'{current}/scripts/aps.py'
-        
+
         # set arguments for uncertainty files (the out directory is where the files are too)
         iso_file = Path(f'{args.out}/T{args.tier}/t{args.tier}iso.npy')
         sys_file = Path(f'{args.out}/T{args.tier}/t{args.tier}sys.txt')
@@ -112,7 +112,7 @@ if __name__ == "__main__":
             a += f'-il '
         if args.icp:
             a += f'-icp '
-    
+
         a += f'-s {args.smooth} -o {args.out}/T{args.tier}/APS_T{args.tier}_S{args.smooth}.pdf -l {args.label}'
         subprocess.Popen(a.split(' '))
 

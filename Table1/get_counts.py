@@ -28,11 +28,18 @@ def get_counts(tier, year, outfile):
     cut   = (dates >= start) * (dates < stop)
     print(f'\nReading in {cut.sum()} files for {year}...')
 
+    # Masking information
+    nside = 64
+    npix = hp.nside2npix(nside)
+    theta, phi = hp.pix2ang(nside, range(npix))
+    mask = (theta < np.radians(55))
+
     # Extract count information from relevant files
     count = 0
     for year_file in files[cut]:
+
         data = hp.read_map(year_file)
-        count += data.sum()
+        count += data[mask].sum()
 
     print(f'\nWriting results to {outfile}...\n')
     with open(outfile, 'w') as f:
