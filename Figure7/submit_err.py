@@ -9,10 +9,10 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser(
             description='Submits jobs for power spec uncertainty calculations')
     p.add_argument('-n', '--n', dest='n',
-            type=int, default=int(1e3),
+            type=int, default=int(10000),
             help='Number of simulated power spectra to generate per job')
     p.add_argument('-N', '--N', dest='N',
-            type=int, default=int(100),
+            type=int, default=int(10),
             help='Number of jobs to submit')
     p.add_argument('--err', dest='err',
             choices=['iso','stat','sys'],

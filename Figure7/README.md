@@ -1,25 +1,20 @@
-## Folder for creating Figure 7 (Angular Power Spectrum) in the 11 years with IceTop paper
+## Folder for creating Figure 7 (Angular Power Spectrum) in the 11-year IceTop anisotropy paper
+
 ### How to Run
-- enter Icetray and a python virtual environment and then run plot_maker.sh to replicate paper figures
-- If you want more control over the output, you can run the command in terminal 
+- if you do not have access to existing uncertainty files, produce them using
+  submit_err.py
+  - submit_err.py will output a series of fake Cl values. Use calc_err.py to
+    simplify these to the uncertainties that the plotting script looks for
+- run plot_maker.py to replicate paper figures
+
 ### Scripts in this Folder
-- plotMaker.py : wrapper script that can generate both the uncertainties and the angular power spectrum with simplified commands.
-  - How to run: python plotMaker.py -t # -l [energy label] -o [output file path]
-  - To make uncertainties:
-      - Iso Bands: python plotMaker.py -t # -i
-      - Sys Bars: python plotMaker.py -t # -sy
-      - Stat Bars: python plotMaker.py -t # -st
-  - Making the uncertainties will take a few hours for each since the -n is default to 1e6 for Iso Bands and 1e5 for stat and sys bars.
-  - -il will put the significance of the iso bands in the legend.
-  - -icp will put IceCube Preliminary on the plot.
-  - -s # will apply angular smoothing to the skymaps. Default 0.
-  - input and output file paths have set defualts, change these for your needs.
 - aps.py : generates and plots the angular power spectrum
-  - How to run: python [code] -f [input file path] -i [isoErr path] --staterr [statErr path] --syserr [sysErr path] -o [output file path] -l [label]
-- isoErr.py : generates the isotropic bands
-  - How to run: python [code] -f [input file path] -o [output file path] (optional: -n [int amount of times to run])
-- statErr.py : generates the statistical error bars
-  - How to run: python [code] -f [input file path] -o [output file path] (optiona: -n [int amount of times to run])
-- sysErr.py : generates the systematic error bars
-  - How to run: python [code] -f [input file path] -o [output file path] (optional: -n [int amount of times to run])
-- map_functions.py: contains functions used in the above files for plot creation.
+- calc_err.py : combines fake Cl values from stat, sys, and isoErr.py to
+  calculate uncertainty values
+- isoErr.py : generates fake Cl values for isotropic noise bands
+- plot_maker.py : wrapper script that generates the power spectra images
+- README.md : this file
+- statErr.py : generates fake Cl values for statistical error bars
+- submit_err.py : wrapper script for cluster submission of iso/stat/sysErr
+- submitter/ : directory with tools for cluster submission
+- sysErr.py : generates fake Cl values for systematic error bars
