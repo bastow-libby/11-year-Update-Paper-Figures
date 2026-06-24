@@ -1,119 +1,66 @@
-#!/bin/sh /cvmfs/icecube.opensciencegrid.org/py3-v4.4.2/icetray-start
-#METAPROJECT: icetray/stable
+#!/usr/bin/env python
 
-import argparse
 import subprocess
-from glob import glob
 from pathlib import Path
 
-current = Path.cwd()
+def plot_aps(map_file, out_dir, err_dir, tier, label, 
+        iso_label=False, icecube_prelim=False):
+
+    # Code to make Angular Power Spectrum
+    cwd = Path.cwd()
+    cmd = f'{cwd}/aps.py -f {map_file}'
+
+    # Add uncertainty files to the plot (if present)
+    iso_file = Path(f'{err_dir}/t{tier}_iso.npy')
+    if iso_file.is_file():
+        cmd += f' -i {iso_file}'
+    else: print('Isotropic error bands not found!')
+
+    stat_file = Path(f'{err_dir}/t{tier}_stat.txt')
+    if stat_file.is_file():
+        cmd += f' -st {stat_file}'
+    else: print('Statistical uncertainties not found!')
+
+    sys_file = Path(f'{err_dir}/t{tier}_sys.txt')
+    if sys_file.is_file():
+        cmd += f' -sy {sys_file}'
+    else: print('Systematic uncertainties not found!')
+
+    # Labeling
+    if iso_label:
+        cmd += f' -il'
+    if icecube_prelim:
+        cmd += f' -icp'
+
+    # Output name for image
+    cmd += f' -o {out_dir}/APS_T{tier}.pdf -l {label}'
+    subprocess.run(cmd.split(' '))
+
 
 if __name__ == "__main__":
 
-    # General options
-    p = argparse.ArgumentParser(
-            description='Wrapper script for producing Angular Power Spectrum for IceTop.',
-            epilog = 'How to run: python [code] -f [input file path] -t t[energy bin tier (1-4)] -o [ouput file path] -l [plot labels] -s [smoothing angle]. Use -m to make the uncertainty files, use -i, -st, or -sy to specify which uncertainty to make. use -n to iterate the uncertainties (more iterations -> better stats).')
+    '''
+    NOTE: the code originally had the following pre-compiled metaproject
+    as a header. It's been removed as it doesn't have support for healpy
+    #!/bin/sh /cvmfs/icecube.opensciencegrid.org/py3-v4.4.2/icetray-start
+    #METAPROJECT: icetray/v1.17.0
+    '''
 
-    # File paths (Update for your use)
-    p.add_argument( '-f', '--inFile', dest='inFiles',
-                default='/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output/sidereal_unblinded',
-                help = 'The input file path. The default is set in a way to select tier. Please ask someone for data path if not found.')
-    p.add_argument('-t', '--tier', dest='tier',
-                   default = '1',
-                   help = 'The energy bin tier. please type -t # to direct to proper directory. default 1.')
-    p.add_argument('-o', '--output', dest='out',
-                   default = '.',
-                   help='output directory, please change default for your needs')
-    p.add_argument('-m', '--make', dest='make',
-                   default = False,
-                   action = 'store_true',
-                   help = 'Determines whether or not to produce the angular power spectrum.')
-    p.add_argument('-n','--n', dest='n',
-                   type=int,
-                   help='Determines how many times the uncertainty iterates. Default iso = 1e6, default sys/stat = 1e5.')
-    p.add_argument('-i', '--iso', dest='iso',
-                   default = False,
-                   action = 'store_true',
-                   help = 'Makes the isotropic noise bands')
-    p.add_argument('-sy', '--sysErr', dest = 'sys',
-                   default = False,
-                   action = 'store_true',
-                   help = 'Makes the systematic error bars.')
-    p.add_argument('-st','--statErr',dest = 'stat',
-                   default = False,
-                   action = 'store_true',
-                   help = 'Makes the statistical error bars.')
-    p.add_argument('-s', '--smooth', dest='smooth',
-                   type = float, default = 0,
-                   help = 'Smooth data and background maps.')
-    p.add_argument('-l', '--label', dest='label',
-                   nargs='+',
-                   help='Sets the label for the plot legend.')
-    p.add_argument('-il', '--iso_label', dest='iso_label',
-                   default=False, action='store_true',
-                   help='Suppress the output of noise labels in legend')
-    p.add_argument('-icp', '--ice_prelim', dest='icp',
-                   default=False, action ='store_true',
-                   help='Adds IceCube Preliminary to power spectrum')
+    # File paths
+    map_dir  = Path('/data/ana/CosmicRay/Anisotropy/IceTop/ITpass2/output')
+    out_dir = '.'
+    err_dir = '/data/user/fmcnally/it_anisotropy/powerspec'
 
-    args = p.parse_args()
+    # Energy labels
+    labels = {1:'280_TeV', 2:'900_TeV', 3:'2300_TeV', 4:'6600_TeV'}
 
-    # find the final iteration for our tier
+    for tier, label in labels.items():
 
-    file_list = glob(f'{args.inFiles}/tier{args.tier}/reconstruction/relintensityiter/combined*.fits.gz')
-    f = sorted(file_list)[-1]
+        tier_dir = map_dir / f'sidereal_unblinded/tier{tier}/reconstruction/'
+        map_files = tier_dir.glob('relintensityiter/combined*.fits.gz')
+        map_file = sorted(map_files)[-1]
 
-    # Make isotropic error bands
-    cmd = f'{current}/scripts/isoErr.py'
-    a = f'{cmd} -f {f} -s {args.smooth} -o {args.out}/T{args.tier}/t{args.tier}iso'
+        # Suppress iso label on tiers 2-4
+        iso_label = True if tier==1 else False
 
-    if args.iso:
-        subprocess.Popen(a.split(' '))
-        print('making isotropic noise bands')
-
-    # Make systematic error bars
-    cmd = f'{current}/scripts/sysErr.py'
-    a = f'{cmd} -f {f} -n {args.n} -s {args.smooth} -o {args.out}/T{args.tier}/t{args.tier}sys'
-
-    if args.sys:
-        subprocess.Popen(a.split(' '))
-        print('making systematic error bars')
-
-    # Make statistical error bars
-    cmd = f'{current}/scripts/statErr.py'
-    a = f'{cmd} -f {f} -n {args.n} -s {args.smooth} -o {args.out}/T{args.tier}/t{args.tier}stat'
-
-    if args.stat:
-        subprocess.Popen(a.split(' '))
-        print('making statistical error bars')
-
-    if (args.iso or args.sys or args.stat):
-        print(f'The uncertainties were saved to {args.out}/T{args.tier}')
-
-    # Code to make Angular Power Spectrum
-    if args.make:
-        cmd = f'{current}/scripts/aps.py'
-
-        # set arguments for uncertainty files (the out directory is where the files are too)
-        iso_file = Path(f'{args.out}/T{args.tier}/t{args.tier}iso.npy')
-        sys_file = Path(f'{args.out}/T{args.tier}/t{args.tier}sys.txt')
-        stat_file = Path(f'{args.out}/T{args.tier}/t{args.tier}stat.txt')
-
-        # Check if an uncertainty file is present, if it is, add it to the graph
-        a  = f'{cmd} -f {f} '
-        if iso_file.is_file():
-            a += f'-i {iso_file} '
-        if sys_file.is_file():
-            a += f'-sy {sys_file} '
-        if stat_file.is_file():
-            a += f'-st {stat_file} '
-        if args.iso_label:
-            a += f'-il '
-        if args.icp:
-            a += f'-icp '
-
-        a += f'-s {args.smooth} -o {args.out}/T{args.tier}/APS_T{args.tier}_S{args.smooth}.pdf -l {args.label}'
-        subprocess.Popen(a.split(' '))
-
-        print(f'Angular power spectrum saved to {args.out}/T{args.tier}')
+        plot_aps(map_file, out_dir, err_dir, tier, label, iso_label=iso_label)
