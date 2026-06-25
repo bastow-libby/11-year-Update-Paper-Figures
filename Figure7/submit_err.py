@@ -10,7 +10,9 @@ if __name__ == "__main__":
             description='Submits jobs for power spec uncertainty calculations')
     p.add_argument('-n', '--n', dest='n',
             type=int, default=int(10000),
-            help='Number of simulated power spectra to generate per job')
+            help=('Number of simulated power spectra to generate per job. '
+                  'Note: when running on the cluster this code averages '
+                  '~0.06 seconds per simulated power spectrum'))
     p.add_argument('-N', '--N', dest='N',
             type=int, default=int(10),
             help='Number of jobs to submit')
