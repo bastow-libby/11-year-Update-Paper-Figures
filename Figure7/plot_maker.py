@@ -52,7 +52,7 @@ if __name__ == "__main__":
     err_dir = '/data/user/fmcnally/it_anisotropy/powerspec'
 
     # Energy labels
-    labels = {1:'280_TeV', 2:'900_TeV', 3:'2300_TeV', 4:'6600_TeV'}
+    labels = {1:'280_TeV', 2:'900_TeV', 3:'2.3_PeV', 4:'6.6_PeV'}
 
     for tier, label in labels.items():
 
