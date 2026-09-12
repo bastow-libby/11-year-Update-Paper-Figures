@@ -1,0 +1,15 @@
+Executable = l3_i3_sim_hdf.py
+
+arguments = output_filename input_filename
+
+output = /data/user/@USER_DIR@/condor.out.$(ClusterId)
+error = /data/user/@USER_DIR@/log/condor.err.$(ClusterId)
+log = /scratch/@USER_DIR@/log/condor.log.$(ClusterId)
+
+request_memory = 2GB
+request_disk = 1MB
+
+#Notification = Error
+getenv  = True
+Queue
+
