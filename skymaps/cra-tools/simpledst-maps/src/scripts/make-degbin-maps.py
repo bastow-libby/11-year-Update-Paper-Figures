@@ -101,7 +101,8 @@ if __name__ == "__main__":
     # Lazy approach for all years
     if args.year == ['all']:
         args.year = list(range(2011,2022))
-    if args.year ==['tier1']
+    if args.year ==['tier1']:
+        args.year = list(range(2011, 2015))
 
     # Get working directory for this script
     script_path = Path(__file__).resolve()
