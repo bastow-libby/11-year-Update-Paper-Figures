@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 import getpass
 
-from submitter.pysubmit import pysubmit
+from npx4.pysubmit import pysubmit
 
 
 if __name__ == "__main__":
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     # Lazy approach for all years
     if args.year == ['all']:
         args.year = list(range(2011,2022))
-    if args.year ==['tier1']:
+    if args.year == ['tier1']:
         args.year = list(range(2011, 2015))
 
     # Get working directory for this script
