@@ -114,7 +114,8 @@ if __name__ == "__main__":
 
         # Collect input files
         fpath = '/data/user/@USER_DIR@/burnsample_root'
-        file_list = sorted(Path(fpath).glob(f'*_IC86.{year}_*.root'))
+        #file_list = sorted(Path(fpath).glob(f'*_IC86.{year}_*.root'))
+        file_list = sorted(Path(fpath).glob(f'l3_data_run_config_year_{year}_*.root'))
 
         # Loop over file list to build a list of files for submission
         c_list = []
@@ -124,7 +125,8 @@ if __name__ == "__main__":
             # Check for existing files
             date = re.findall(r'\d{4}_\d{4}\.root', root_file.name)[-1][:-5]
             yyyy, mmdd = date.split('_')
-            test_dir = Path(f'{args.outdir}/IC86.{year}/{yyyy}/{mmdd}')
+            #test_dir = Path(f'{args.outdir}/IC86.{year}/{yyyy}/{mmdd}')
+            test_dir = Path(f'{args.outdir}')
             test_base = f'CR_ICETOP_LOCAL_3-100S_NSIDE64'
 
             if not args.overwrite:
@@ -182,7 +184,8 @@ if __name__ == "__main__":
             # Name job
             jobID = f'{args.outfile}'
             for s in [sub_batch[0], sub_batch[-1]]:
-                date = re.findall(r'IC86\.\d{4}_\d{4}_\d{4}', s)[-1]
+                #date = re.findall(r'IC86\.\d{4}_\d{4}_\d{4}', s)[-1]
+                date = re.findall(r'l3_data_run_config_year_\d{4}_\d{4}', s)[-1]
                 jobID += f'_{date}'
 
             # Create and print list of executables
