@@ -19,7 +19,7 @@ import subprocess
 import os, stat, random
 #import numpy as np
 
-def pysubmit(executable, jobID=None, outdir='/home/fmcnally/npx4',
+def pysubmit(executable, jobID=None, outdir='/home/@USER_DIR@/npx4',
               test=False, local=False, universe='vanilla',
               header=['#!/bin/bash'],
               notification='never', sublines=None, priority=1, condor_dag=None):
