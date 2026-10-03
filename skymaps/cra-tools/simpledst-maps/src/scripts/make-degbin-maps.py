@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 import getpass
 
-from npx4.pysubmit import pysubmit
+from submit.pysubmit import pysubmit
 
 
 if __name__ == "__main__":
