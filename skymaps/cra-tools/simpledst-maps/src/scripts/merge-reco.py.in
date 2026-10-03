@@ -117,8 +117,8 @@ if __name__ == "__main__":
         p.error('Detector configuration not given')
 
     # Base name for outfiles
-    outBase = '{outdir}/{config}'.format(**c_opts)
-    inBase = '{indir}/{config}'.format(**c_opts)
+    outBase = '{outdir}'.format(**c_opts)
+    inBase = '{indir}'.format(**c_opts)
     if args.sundp:
        outBase += '_sd'
        inBase += '_sd'
